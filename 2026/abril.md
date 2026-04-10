@@ -1,19 +1,19 @@
-# Abril 2026 - AgendaLuz (Projeto Pessoal)
+# Abril 2026 - AgendaLuz + VivaFit
 
-> Retomada e evolução do projeto pessoal de gestão para profissionais
+> Evolução do projeto pessoal e continuação do projeto acadêmico
 
 ## SITUAÇÃO
 
-Retomada do projeto AgendaLuz com foco em melhorias de UX, dashboard financeiro e funcionalidades avançadas de gestão de clientes.
+Retomada do projeto AgendaLuz com foco em melhorias de UX e dashboard financeiro. Continuação do projeto VivaFit da PUC Minas com arquitetura e documentação.
 
 ## PRINCIPAIS ENTREGAS
 
-### Dashboard Financeiro
+### AgendaLuz - Dashboard Financeiro
 - Implementação de tela de dashboard financeiro
 - Integração de estatísticas financeiras
 - Visualização de dados de faturamento
 
-### Gestão de Clientes
+### AgendaLuz - Gestão de Clientes
 - Busca do próximo agendamento do cliente
 - Exibição do último atendimento realizado
 - Tags de clientes na interface
@@ -21,22 +21,20 @@ Retomada do projeto AgendaLuz com foco em melhorias de UX, dashboard financeiro 
 - Info cards substituindo detail rows
 - Draggable scrollable sheet para melhor navegação
 
-### Melhorias de Interface
+### AgendaLuz - Melhorias de Interface
 - Refatoração da app bar na AgendaScreen
 - Background gradiente para melhor visual
 - Reorganização de elementos para acessibilidade
 - Seleção de mês/ano com dropdowns
 - Refatoração de cores usando AppColors utility class
-- Ajustes de layout nos botões de seleção de data
 
-### Infraestrutura
-- Refatoração do backup service com debugPrint
-- Melhoria no fluxo de processo de backup
-- Atualização da configuração de build Windows
-- Remoção de arquivos desnecessários
-- Atualização do .gitignore
+### VivaFit (PUC Minas)
+- Atualização de imagens BPMN
+- Modelo ER documentado
+- Arquitetura da solução definida
+- Refatoração de código para legibilidade
 
-## COMMITS RELEVANTES
+## COMMITS AgendaLuz
 
 ```
 2026-04-10 | Add financial dashboard screen and integrate financial statistics
@@ -46,28 +44,35 @@ Retomada do projeto AgendaLuz com foco em melhorias de UX, dashboard financeiro 
 2026-04-10 | Add functionality to fetch last completed appointment
 2026-04-10 | Refactor color usage to use AppColors utility class
 2026-04-10 | Refactor backup service with debugPrint for error logging
-2026-04-10 | Refactor month/year selection button layout
 2026-04-10 | Refactor date selection to use month/year dropdowns
-2026-04-10 | Atualiza README.md com funcionalidades e estrutura
+```
+
+## COMMITS VivaFit
+
+```
+2026-04-01 | Add flow diagram for VivaFit user interactions
+2026-04-02 | Revise flow diagram and wireframes descriptions
+2026-04-02 | Update 05-Arquitetura da Solução.md
+2026-04-04 | Update ER model image and description
+2026-04-04 | Update BPMN process images for improved clarity
+2026-04-04 | Refactor code structure for improved readability
 ```
 
 ## RESULTADO
 
-- Dashboard financeiro funcional
+- Dashboard financeiro funcional no AgendaLuz
 - Gestão de clientes mais completa
 - Interface mais moderna e acessível
-- Código mais organizado com utility classes
-- 10+ commits de melhorias significativas
+- VivaFit com arquitetura e documentação atualizadas
+- Projetos acadêmico e pessoal em paralelo
 
 ---
 
 ### Stack Técnico
 - **Flutter** - Draggable sheets, gradients, custom widgets
 - **Dart** - Utility classes, async data fetching
+- **BPMN** - Processos de negócio
 - **UI/UX** - Info cards, dropdowns, acessibilidade
-
-### Aprendizados
-- Organização de código com utility classes
 - Padrões de UX para apps de gestão
 - Implementação de dashboards financeiros
 - Draggable scrollable sheets para mobile

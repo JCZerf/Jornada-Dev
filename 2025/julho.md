@@ -1,10 +1,10 @@
-# Julho 2025 - Brapp + AgendaLuz (valoraresoftware)
+# Julho 2025 - Brapp + AgendaLuz + CNH Validation
 
-> Mês de consolidação - Performance, validações robustas e projeto paralelo
+> Mês de consolidação - Performance, validações robustas e projetos paralelos
 
 ## SITUAÇÃO
 
-Com as funcionalidades básicas de ranking implementadas, o foco passou para otimização de performance, validações robustas e expansão do app para escala nacional. Também iniciei o projeto paralelo AgendaLuz.
+Com as funcionalidades básicas de ranking implementadas, o foco passou para otimização de performance, validações robustas e expansão do app para escala nacional. Também iniciei projetos paralelos: AgendaLuz e CNH Validation.
 
 ## PRINCIPAIS ENTREGAS (Brapp)
 
@@ -75,13 +75,32 @@ MVP de app de gestão para profissionais autônomos:
 2025-07-15 | Correções para dispositivos físicos - Sistema de notificações
 ```
 
+## PROJETO: CNH Validation (MOST/Windmill)
+
+MVP de sistema de validação de CNH:
+- Tratamento de documentos RG
+- Estrutura de projeto documentada
+- Versão MVP Windmill
+
+## COMMITS CNH Validation
+
+```
+2025-07-27 | Versão MPV windmill
+2025-07-27 | corrigindo estrutura do projeto markdown
+2025-07-27 | aprimorando alguns tratamentos de falhas
+2025-07-27 | melhorando tratamento rg
+2025-07-27 | aprimorando doc técnico
+2025-07-30 | change type file
+```
+
 ## RESULTADO
 
 - Brapp evoluiu de v2.0.11 para v2.1.5 (6 versões)
 - Performance significativamente melhorada
 - Zero crashes em trilhas problemáticas
 - AgendaLuz MVP completo e funcional
-- Demonstração de autonomia com projeto paralelo
+- CNH Validation MVP funcional
+- Demonstração de autonomia com projetos paralelos
 
 ---
 
@@ -91,9 +110,11 @@ MVP de app de gestão para profissionais autônomos:
 - **Dart** - Async/await, batch processing
 - **OpenStreetMap** - NetworkTileProvider
 - **JSON** - Estruturação de dados nacionais
+- **Python/Windmill** - Validação de documentos
 
 ### Aprendizados
 - Batch processing vs carregamento sequencial
 - Transações Firestore para integridade de dados
 - Progressive enhancement em interfaces móveis
-- Desenvolvimento de MVP completo de forma independente
+- Desenvolvimento de múltiplos MVPs de forma independente
+- Validação e processamento de documentos

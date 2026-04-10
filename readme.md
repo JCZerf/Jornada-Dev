@@ -164,26 +164,40 @@ Abr/2026: 150+ commits, desenvolvedor autônomo
 ├─ README.md
 ├─ template_mes.md
 ├─ 2025/
-│   ├─ abril.md        ← Primeiras contribuições
-│   ├─ maio.md         ← Infraestrutura Firestore e mapas
-│   ├─ junho.md        ← Ranking por categorias e compartilhamento
-│   ├─ julho.md        ← Performance, validações + AgendaLuz MVP
-│   └─ agosto.md       ← Tolerâncias, GPS e foto de perfil (v2.2.0)
+│   ├─ abril.md        ← Brapp: Primeiras contribuições
+│   ├─ maio.md         ← Brapp: Firestore Service, mapas
+│   ├─ junho.md        ← Brapp: Ranking, compartilhamento
+│   ├─ julho.md        ← Brapp + AgendaLuz MVP + CNH Validation
+│   ├─ agosto.md       ← Brapp: Tolerâncias, GPS, foto (v2.2.0)
+│   ├─ setembro.md     ← Solar Energy: Início projeto PUC
+│   ├─ outubro.md      ← Solar Energy: Desenvolvimento inicial
+│   ├─ novembro.md     ← Solar Energy: Chat, Leads, Relatórios
+│   └─ dezembro.md     ← Solar Energy: Docker + TaskLite
 └─ 2026/
-    └─ abril.md        ← AgendaLuz - Dashboard financeiro
+    ├─ janeiro.md      ← Linear Algebra API
+    ├─ marco.md        ← VivaFit: Início projeto PUC
+    └─ abril.md        ← AgendaLuz + VivaFit
 ```
 
 ### Navegação por Mês
 
-**2025:**
-- [Abril 2025](./2025/abril.md) - Primeiras contribuições, UI/UX, cache de geo queries
-- [Maio 2025](./2025/maio.md) - Firestore Service, marcadores no mapa, suporte a circuitos
-- [Junho 2025](./2025/junho.md) - Ranking por categorias, compartilhamento, print ranking
-- [Julho 2025](./2025/julho.md) - Performance assíncrona, validações, AgendaLuz MVP
-- [Agosto 2025](./2025/agosto.md) - Tolerâncias personalizadas, GPS, foto de perfil (v2.2.0)
+**2025 - Estágio (Brapp/Valoare):**
+- [Abril 2025](./2025/abril.md) - Brapp: Primeiras contribuições, UI/UX, geo queries
+- [Maio 2025](./2025/maio.md) - Brapp: Firestore Service, marcadores, circuitos
+- [Junho 2025](./2025/junho.md) - Brapp: Ranking por categorias, compartilhamento
+- [Julho 2025](./2025/julho.md) - Brapp: Performance + AgendaLuz MVP + CNH Validation
+- [Agosto 2025](./2025/agosto.md) - Brapp: Tolerâncias, GPS, foto de perfil (v2.2.0)
+
+**2025 - Acadêmico (PUC Minas - Solar Energy):**
+- [Setembro 2025](./2025/setembro.md) - Solar Energy: Documentação e design inicial
+- [Outubro 2025](./2025/outubro.md) - Solar Energy: Desenvolvimento .NET, cadastros
+- [Novembro 2025](./2025/novembro.md) - Solar Energy: Chat, Leads, Relatórios, Admin
+- [Dezembro 2025](./2025/dezembro.md) - Solar Energy: Docker + TaskLite + Finalização
 
 **2026:**
-- [Abril 2026](./2026/abril.md) - AgendaLuz: Dashboard financeiro, gestão de clientes
+- [Janeiro 2026](./2026/janeiro.md) - Linear Algebra API
+- [Março 2026](./2026/marco.md) - VivaFit: Início projeto PUC (Scrum, BPMN)
+- [Abril 2026](./2026/abril.md) - AgendaLuz: Dashboard financeiro + VivaFit
 
 ---
 
@@ -254,32 +268,52 @@ RESULTADO - MVP funcional com 19 commits, demonstrando autonomia total
 
 ## Progresso Atual
 
-| Mês | Projeto | Principais Conquistas | Versão |
-|-----|---------|----------------------|--------|
-| **Abr/25** | Brapp | Primeiras contribuições, UI/UX, cache geo queries | v2.0.1 |
-| **Mai/25** | Brapp | Firestore Service, marcadores mapa, circuitos | v2.0.3 → v2.0.5 |
-| **Jun/25** | Brapp | Ranking por categorias, compartilhamento, print | v2.0.6 → v2.0.11 |
-| **Jul/25** | Brapp + AgendaLuz | Performance assíncrona, validações, MVP AgendaLuz | v2.0.11 → v2.1.5 |
-| **Ago/25** | Brapp | Tolerâncias personalizadas, GPS, foto de perfil | v2.1.5 → v2.2.0 |
-| **Abr/26** | AgendaLuz | Dashboard financeiro, gestão de clientes | - |
+### Estágio - Brapp (Valoare Software)
 
-### Highlights por Projeto
+| Mês | Principais Conquistas | Versão |
+|-----|----------------------|--------|
+| **Abr/25** | Primeiras contribuições, UI/UX, cache geo queries | v2.0.1 |
+| **Mai/25** | Firestore Service, marcadores mapa, circuitos | v2.0.3 → v2.0.5 |
+| **Jun/25** | Ranking por categorias, compartilhamento, print | v2.0.6 → v2.0.11 |
+| **Jul/25** | Performance assíncrona, validações robustas | v2.0.11 → v2.1.5 |
+| **Ago/25** | Tolerâncias personalizadas, GPS, foto de perfil | v2.1.5 → v2.2.0 |
 
-**Brapp (valoraresoftware) - Abr a Ago 2025:**
+### Acadêmico - PUC Minas
+
+| Mês | Projeto | Principais Conquistas |
+|-----|---------|----------------------|
+| **Set/25** | Solar Energy | Documentação, wireframes, arquitetura |
+| **Out/25** | Solar Energy | Setup .NET, cadastros, busca empresas |
+| **Nov/25** | Solar Energy | Chat tempo real, Leads, Relatórios PDF/CSV, Admin |
+| **Dez/25** | Solar Energy | Docker completo, DbSeeder, apresentação final |
+| **Mar/26** | VivaFit | Início projeto, Scrum, BPMN, wireframes |
+| **Abr/26** | VivaFit | Arquitetura, modelo ER, processos |
+
+### Projetos Pessoais
+
+| Mês | Projeto | Descrição |
+|-----|---------|-----------|
+| **Jun/25** | Discursos Scan | Telas de login e homepage |
+| **Jul/25** | AgendaLuz | MVP completo - agenda, financeiro, notificações |
+| **Jul/25** | CNH Validation | MVP Windmill - validação de documentos |
+| **Dez/25** | TaskLite | Gerenciador de tarefas web |
+| **Jan/26** | Linear Algebra API | API de operações matemáticas |
+| **Abr/26** | AgendaLuz | Dashboard financeiro, gestão de clientes |
+
+### Highlights por Área
+
+**Estágio (Brapp/Valoare) - 5 meses:**
 - App evoluiu de v2.0.1 para v2.2.0 (15+ releases)
-- Infraestrutura Firestore modularizada
-- Ranking com filtros dinâmicos e compartilhamento
-- Sistema de tolerâncias personalizadas por trilha
-- Performance otimizada com carregamento assíncrono
-- Upload de foto de perfil integrado
 - 150+ commits em produção
+- Features críticas: ranking, tolerâncias, GPS, upload foto
 
-**AgendaLuz (projeto pessoal):**
-- MVP completo em Jul/2025
-- Dashboard financeiro em Abr/2026
-- Gestão de agenda, clientes e financeiro
-- Sistema de notificações robusto
-- Demonstração de autonomia total
+**Acadêmico (PUC Minas) - 2 projetos:**
+- Solar Energy: Plataforma completa .NET com Docker
+- VivaFit: Aplicação fitness em andamento
+
+**Projetos Pessoais - 5 projetos:**
+- AgendaLuz, TaskLite, CNH Validation, Linear Algebra API, Discursos Scan
+- Demonstração de autonomia e iniciativa
 
 ---
 
