@@ -23,8 +23,8 @@
 |--------|------------|-------|
 | Recrutador | [Sobre Minha Jornada](#sobre-minha-jornada-como-desenvolvedor) + [Cases STAR](#cases-star-prontos-para-entrevistas) + [Resumo Executivo](#resumo-executivo-para-recrutadores) | 5-7 min |
 | Tech Lead | [Progresso Atual](#progresso-atual) + [Stack Técnico](#stack-técnico--competências-desenvolvidas) | 5-7 min |
-| Estudante | [Sobre Minha Jornada](#sobre-minha-jornada-como-desenvolvedor) + [Semanas detalhadas](./junho/semana1.md) | 15-20 min |
-| Análise Completa | Documento inteiro + arquivos semanais | 25-35 min |
+| Estudante | [Sobre Minha Jornada](#sobre-minha-jornada-como-desenvolvedor) + [Relatórios mensais](./2025/junho.md) | 15-20 min |
+| Análise Completa | Documento inteiro + arquivos mensais | 25-35 min |
 
 > **Para recrutadores:** Vá direto para [Cases STAR](#cases-star-prontos-para-entrevistas) e [Resumo Executivo](#resumo-executivo-para-recrutadores)
 
@@ -162,65 +162,30 @@ Abr/2026: 150+ commits, desenvolvedor autônomo
 ```bash
 /
 ├─ README.md
-├─ template_semana_star.md
-├─ junho/
-│   ├─ semana1.md      ← Integração inicial
-│   ├─ semana2.md      
-│   ├─ semana3.md      
-│   └─ semana4.md      
-├─ julho/
-│   ├─ semana1.md      
-│   ├─ semana2.md      
-│   ├─ semana3.md      
-│   └─ semana4.md      
-├─ agosto/
-│   ├─ semana1.md      
-│   ├─ semana2.md      
-│   ├─ semana3.md      
-│   └─ semana4.md      
-├─ março/
-│   ├─ semana2.md      
-│   ├─ semana3.md      
-│   ├─ semana4.md      
-│   └─ semana5.md      
-├─ abril/
-│   ├─ semana1.md      
-│   └─ semana2.md      ← Atual
-├─ novembro/
-│   ├─ semana3.md      
-│   └─ semana4.md      
-└─ dezembro/
-    ├─ semana2.md      
-    └─ semana3.md      
+├─ template_mes.md
+├─ 2025/
+│   ├─ junho.md        ← Primeiro mês - Integração e ranking
+│   ├─ julho.md        ← Performance e validações + AgendaLuz MVP
+│   └─ agosto.md       ← Tolerâncias, GPS e foto de perfil
+└─ 2026/
+    └─ abril.md        ← AgendaLuz - Dashboard financeiro
 ```
 
-### Navegação Rápida por Período
+### Navegação por Mês
 
-**Junho-Julho 2025 (Início):**
-- [Junho - Semana 1](./junho/semana1.md) - Integração e análise arquitetural
-- [Junho - Semana 2](./junho/semana2.md) - Sistema de categorias no ranking  
-- [Junho - Semana 3](./junho/semana3.md) - Validações de gravação de trilhas
-- [Junho - Semana 4](./junho/semana4.md) - Filtros + compartilhamento
-- [Julho - Semana 1](./julho/semana1.md) - Base nacional + validações
-- [Julho - Semana 2](./julho/semana2.md) - Interface wizard + melhorias
-- [Julho - Semana 3](./julho/semana3.md) - Performance + transações Firestore  
-- [Julho - Semana 4](./julho/semana4.md) - Otimizações
+**2025:**
+- [Junho 2025](./2025/junho.md) - Integração, ranking por categorias, compartilhamento
+- [Julho 2025](./2025/julho.md) - Performance, validações, AgendaLuz MVP
+- [Agosto 2025](./2025/agosto.md) - Tolerâncias personalizadas, GPS, foto de perfil
 
-**Agosto 2025:**
-- [Agosto - Semana 1](./agosto/semana1.md) - [Agosto - Semana 4](./agosto/semana4.md)
-
-**Março-Abril 2026 (Recente):**
-- [Março - Semana 2](./marco/semana2.md) - [Março - Semana 5](./marco/semana5.md)
-- [Abril - Semana 1](./abril/semana1.md) - [Abril - Semana 2](./abril/semana2.md)
-
-### Arquivos de Apoio
-- [Template de Semana](./template_semana_star.md) - Padrão para documentação
+**2026:**
+- [Abril 2026](./2026/abril.md) - AgendaLuz: Dashboard financeiro, gestão de clientes
 
 ---
 
 ## Método STAR - Estrutura dos Registros
 
-Cada arquivo semanal segue o formato **STAR** para facilitar uso em entrevistas:
+Cada arquivo mensal segue o formato **STAR** para facilitar uso em entrevistas:
 
 ```
 SITUAÇÃO - Contexto do projeto/tarefa
@@ -285,70 +250,51 @@ RESULTADO - MVP funcional com 19 commits, demonstrando autonomia total
 
 ## Progresso Atual
 
-| Período | Principais Conquistas | Tecnologias |
-|---------|----------------------|-------------|
-| **Jun 2025** | Integração ao projeto, categorias no ranking, validações, filtros + compartilhamento | Flutter, Firebase, Git |
-| **Jul 2025** | JSON cidades Brasil, interface wizard, performance assíncrona, transações Firestore | Firestore, Future.wait |
-| **Ago 2025** | Tolerâncias dinâmicas, ajustes de GPS, validações de trilhas | Maps, GPS |
-| **Set-Out 2025** | Melhorias contínuas, correções de bugs, otimizações | - |
-| **Nov-Dez 2025** | Funcionalidades avançadas, estabilização | - |
-| **Mar 2026** | Tolerâncias personalizadas, precisão GPS, upload de foto | Firebase Storage |
-| **Abr 2026** | Versão 2.2.0 em produção | - |
+| Mês | Projeto | Principais Conquistas | Versão |
+|-----|---------|----------------------|--------|
+| **Jun/25** | Brapp | Integração, ranking por categorias, compartilhamento | v2.0.6 → v2.0.11 |
+| **Jul/25** | Brapp + AgendaLuz | Performance assíncrona, validações, MVP AgendaLuz | v2.0.11 → v2.1.5 |
+| **Ago/25** | Brapp | Tolerâncias personalizadas, GPS, upload de foto | v2.1.5 → v2.2.0 |
+| **Abr/26** | AgendaLuz | Dashboard financeiro, gestão de clientes | - |
 
-### Highlights por Fase
+### Highlights por Projeto
 
-**Fase 1 - Fundamentos (Jun-Jul 2025):**
-- Ranking com filtros dinâmicos por categoria
-- Sistema de captura e compartilhamento de imagens
-- Validações de interface com feedback visual
-- Performance com carregamento assíncrono em batches
-- Transações Firestore para integridade de dados
-
-**Fase 2 - Consolidação (Ago-Dez 2025):**
-- Sistema de tolerâncias para diferentes precisões de GPS
-- Melhorias na experiência do usuário
-- Estabilização e correções críticas
-
-**Fase 3 - Maturidade (2026):**
+**Brapp (valoraresoftware) - Jun a Ago 2025:**
+- App evoluiu de v2.0.6 para v2.2.0 (8 releases)
+- Ranking com filtros dinâmicos e compartilhamento
 - Sistema de tolerâncias personalizadas por trilha
-- Upload de foto de perfil
-- Aumento da precisão GPS
-- Versão 2.2.0 do app
+- Performance otimizada com carregamento assíncrono
+- Upload de foto de perfil integrado
+- 150+ commits em produção
 
-**Projeto Paralelo - AgendaLuz:**
-- MVP completo desenvolvido de forma independente
-- Dashboard financeiro, agenda, gestão de clientes
-- Sistema de notificações
-- Demonstração de autonomia e iniciativa
+**AgendaLuz (projeto pessoal):**
+- MVP completo em Jul/2025
+- Dashboard financeiro em Abr/2026
+- Gestão de agenda, clientes e financeiro
+- Sistema de notificações robusto
+- Demonstração de autonomia total
 
 ---
 
 ## Métricas de Evolução
 
-### Complexidade Técnica
-- **Mês 1-2:** Setup + widgets básicos + primeiras funcionalidades
-- **Mês 3-4:** Lógica de negócio + validações + performance
-- **Mês 5-8:** Arquitetura avançada + otimizações críticas
-- **Mês 9-10:** Funcionalidades complexas + projeto paralelo
+### Contribuições por Projeto
 
-### Contribuições no Projeto Brapp
-- 150+ commits em produção
-- 60+ Pull Requests
-- App na versão 2.2.0 com suas contribuições
-- Resolução independente de bugs críticos
-- Documentação técnica de funcionalidades
+**Brapp (valoraresoftware):**
+- 150+ commits
+- 60+ Pull Requests mergeados
+- 8 versões do app com contribuições
+- Features críticas em produção
+
+**AgendaLuz (projeto pessoal):**
+- 19+ commits
+- MVP completo independente
+- Dashboard financeiro funcional
 
 ### Autonomia Demonstrada
-- Projeto AgendaLuz desenvolvido de forma independente (19 commits)
-- MVP completo: agenda, financeiro, clientes, notificações
-- Demonstra capacidade de arquitetar e executar projetos do zero
-
-### Impacto no Produto
-- Ranking por categorias - Engajamento de usuários
-- Performance otimizada - Melhor experiência  
-- Validações robustas - Redução de bugs
-- Tolerâncias personalizadas - Consistência entre dispositivos
-- Upload de foto - Personalização de perfil
+- Projeto AgendaLuz desenvolvido de forma independente
+- Capacidade de arquitetar e executar projetos do zero
+- Evolução de estagiário para desenvolvedor autônomo
 
 ---
 
