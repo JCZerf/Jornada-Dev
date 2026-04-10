@@ -1,10 +1,10 @@
-# 📘 Registro de Atividades - Estágio na Pluritech
+# Registro de Atividades - Estágio e Projetos Profissionais
 
-> **Portfólio Técnico STAR** | Documentação profissional das atividades realizadas durante estágio em desenvolvimento mobile (Flutter/Firebase), iniciado em **06 de junho de 2025**.
+> Portfólio Técnico utilizando metodologia STAR | Documentação de atividades em desenvolvimento mobile, web e automação, iniciado em junho de 2025.
 
 ---
 
-## 📑 Sumário
+## Sumário
 
 - [👨‍💻 Sobre Minha Jornada](#-sobre-minha-jornada-como-desenvolvedor)
 - [🧭 Objetivo deste Documento](#-objetivo-deste-documento)
