@@ -164,40 +164,40 @@ Abr/2026: 150+ commits, desenvolvedor autônomo
 ├─ README.md
 ├─ template_mes.md
 ├─ 2025/
-│   ├─ abril.md        ← Brapp: Primeiras contribuições
-│   ├─ maio.md         ← Brapp: Firestore Service, mapas
-│   ├─ junho.md        ← Brapp: Ranking, compartilhamento
-│   ├─ julho.md        ← Brapp + AgendaLuz MVP + CNH Validation
-│   ├─ agosto.md       ← Brapp: Tolerâncias, GPS, foto (v2.2.0)
-│   ├─ setembro.md     ← Solar Energy: Início projeto PUC
-│   ├─ outubro.md      ← Solar Energy: Desenvolvimento inicial
-│   ├─ novembro.md     ← Solar Energy: Chat, Leads, Relatórios
-│   └─ dezembro.md     ← Solar Energy: Docker + TaskLite
+│   ├─ 04-abril.md     ← Brapp: Primeiras contribuições
+│   ├─ 05-maio.md      ← Brapp: Firestore Service, mapas
+│   ├─ 06-junho.md     ← Brapp: Ranking, compartilhamento
+│   ├─ 07-julho.md     ← Brapp + AgendaLuz MVP + CNH Validation
+│   ├─ 08-agosto.md    ← Brapp: Tolerâncias, GPS, foto (v2.2.0)
+│   ├─ 09-setembro.md  ← Solar Energy: Início projeto PUC
+│   ├─ 10-outubro.md   ← Solar Energy: Desenvolvimento inicial
+│   ├─ 11-novembro.md  ← Solar Energy: Chat, Leads, Relatórios
+│   └─ 12-dezembro.md  ← Solar Energy: Docker + TaskLite
 └─ 2026/
-    ├─ janeiro.md      ← Linear Algebra API
-    ├─ marco.md        ← VivaFit: Início projeto PUC
-    └─ abril.md        ← AgendaLuz + VivaFit
+    ├─ 01-janeiro.md   ← Linear Algebra API
+    ├─ 03-marco.md     ← VivaFit: Início projeto PUC
+    └─ 04-abril.md     ← AgendaLuz + VivaFit
 ```
 
 ### Navegação por Mês
 
 **2025 - Estágio (Brapp/Valoare):**
-- [Abril 2025](./2025/abril.md) - Brapp: Primeiras contribuições, UI/UX, geo queries
-- [Maio 2025](./2025/maio.md) - Brapp: Firestore Service, marcadores, circuitos
-- [Junho 2025](./2025/junho.md) - Brapp: Ranking por categorias, compartilhamento
-- [Julho 2025](./2025/julho.md) - Brapp: Performance + AgendaLuz MVP + CNH Validation
-- [Agosto 2025](./2025/agosto.md) - Brapp: Tolerâncias, GPS, foto de perfil (v2.2.0)
+- [Abril 2025](./2025/04-abril.md) - Brapp: Primeiras contribuições, UI/UX, geo queries
+- [Maio 2025](./2025/05-maio.md) - Brapp: Firestore Service, marcadores, circuitos
+- [Junho 2025](./2025/06-junho.md) - Brapp: Ranking por categorias, compartilhamento
+- [Julho 2025](./2025/07-julho.md) - Brapp: Performance + AgendaLuz MVP + CNH Validation
+- [Agosto 2025](./2025/08-agosto.md) - Brapp: Tolerâncias, GPS, foto de perfil (v2.2.0)
 
 **2025 - Acadêmico (PUC Minas - Solar Energy):**
-- [Setembro 2025](./2025/setembro.md) - Solar Energy: Documentação e design inicial
-- [Outubro 2025](./2025/outubro.md) - Solar Energy: Desenvolvimento .NET, cadastros
-- [Novembro 2025](./2025/novembro.md) - Solar Energy: Chat, Leads, Relatórios, Admin
-- [Dezembro 2025](./2025/dezembro.md) - Solar Energy: Docker + TaskLite + Finalização
+- [Setembro 2025](./2025/09-setembro.md) - Solar Energy: Documentação e design inicial
+- [Outubro 2025](./2025/10-outubro.md) - Solar Energy: Desenvolvimento .NET, cadastros
+- [Novembro 2025](./2025/11-novembro.md) - Solar Energy: Chat, Leads, Relatórios, Admin
+- [Dezembro 2025](./2025/12-dezembro.md) - Solar Energy: Docker + TaskLite + Finalização
 
 **2026:**
-- [Janeiro 2026](./2026/janeiro.md) - Linear Algebra API
-- [Março 2026](./2026/marco.md) - VivaFit: Início projeto PUC (Scrum, BPMN)
-- [Abril 2026](./2026/abril.md) - AgendaLuz: Dashboard financeiro + VivaFit
+- [Janeiro 2026](./2026/01-janeiro.md) - Linear Algebra API
+- [Março 2026](./2026/03-marco.md) - VivaFit: Início projeto PUC (Scrum, BPMN)
+- [Abril 2026](./2026/04-abril.md) - AgendaLuz: Dashboard financeiro + VivaFit
 
 ---
 
