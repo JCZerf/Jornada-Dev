@@ -90,9 +90,9 @@ Este repositório documenta minha evolução técnica e profissional durante o e
 ---
 
 ## Informações do Estágio
-- **Empresa:** Pluritech (Desenvolvimento Mobile)
-- **Período:** 06/06/2025 - Atual
-- **Duração atual:** 10 meses (40+ semanas)
+- **Empresa:** Pluritech / Valoare Software
+- **Período:** 07/04/2025 - Atual
+- **Duração atual:** 12 meses
 - **Modalidade:** Presencial/Híbrido
 - **Projeto Principal:** Aplicativo Brapp (Flutter/Firebase)
 - **Projeto Paralelo:** AgendaLuz (app de gestão - Flutter/Firebase)
@@ -148,9 +148,9 @@ Ago/2024: Primeiro "Hello World"
     |
 Jan/2025: Ingresso na faculdade
     |
-Jun/2025: Primeiro estágio 
+Abr/2025: Primeiro estágio (Valoare/Pluritech)
     |
-Jul/2025: Funcionalidades em produção
+Ago/2025: App Brapp v2.2.0 em produção
     |
 Abr/2026: 150+ commits, desenvolvedor autônomo
 ```
@@ -164,9 +164,11 @@ Abr/2026: 150+ commits, desenvolvedor autônomo
 ├─ README.md
 ├─ template_mes.md
 ├─ 2025/
-│   ├─ junho.md        ← Primeiro mês - Integração e ranking
-│   ├─ julho.md        ← Performance e validações + AgendaLuz MVP
-│   └─ agosto.md       ← Tolerâncias, GPS e foto de perfil
+│   ├─ abril.md        ← Primeiras contribuições
+│   ├─ maio.md         ← Infraestrutura Firestore e mapas
+│   ├─ junho.md        ← Ranking por categorias e compartilhamento
+│   ├─ julho.md        ← Performance, validações + AgendaLuz MVP
+│   └─ agosto.md       ← Tolerâncias, GPS e foto de perfil (v2.2.0)
 └─ 2026/
     └─ abril.md        ← AgendaLuz - Dashboard financeiro
 ```
@@ -174,9 +176,11 @@ Abr/2026: 150+ commits, desenvolvedor autônomo
 ### Navegação por Mês
 
 **2025:**
-- [Junho 2025](./2025/junho.md) - Integração, ranking por categorias, compartilhamento
-- [Julho 2025](./2025/julho.md) - Performance, validações, AgendaLuz MVP
-- [Agosto 2025](./2025/agosto.md) - Tolerâncias personalizadas, GPS, foto de perfil
+- [Abril 2025](./2025/abril.md) - Primeiras contribuições, UI/UX, cache de geo queries
+- [Maio 2025](./2025/maio.md) - Firestore Service, marcadores no mapa, suporte a circuitos
+- [Junho 2025](./2025/junho.md) - Ranking por categorias, compartilhamento, print ranking
+- [Julho 2025](./2025/julho.md) - Performance assíncrona, validações, AgendaLuz MVP
+- [Agosto 2025](./2025/agosto.md) - Tolerâncias personalizadas, GPS, foto de perfil (v2.2.0)
 
 **2026:**
 - [Abril 2026](./2026/abril.md) - AgendaLuz: Dashboard financeiro, gestão de clientes
@@ -252,15 +256,18 @@ RESULTADO - MVP funcional com 19 commits, demonstrando autonomia total
 
 | Mês | Projeto | Principais Conquistas | Versão |
 |-----|---------|----------------------|--------|
-| **Jun/25** | Brapp | Integração, ranking por categorias, compartilhamento | v2.0.6 → v2.0.11 |
+| **Abr/25** | Brapp | Primeiras contribuições, UI/UX, cache geo queries | v2.0.1 |
+| **Mai/25** | Brapp | Firestore Service, marcadores mapa, circuitos | v2.0.3 → v2.0.5 |
+| **Jun/25** | Brapp | Ranking por categorias, compartilhamento, print | v2.0.6 → v2.0.11 |
 | **Jul/25** | Brapp + AgendaLuz | Performance assíncrona, validações, MVP AgendaLuz | v2.0.11 → v2.1.5 |
-| **Ago/25** | Brapp | Tolerâncias personalizadas, GPS, upload de foto | v2.1.5 → v2.2.0 |
+| **Ago/25** | Brapp | Tolerâncias personalizadas, GPS, foto de perfil | v2.1.5 → v2.2.0 |
 | **Abr/26** | AgendaLuz | Dashboard financeiro, gestão de clientes | - |
 
 ### Highlights por Projeto
 
-**Brapp (valoraresoftware) - Jun a Ago 2025:**
-- App evoluiu de v2.0.6 para v2.2.0 (8 releases)
+**Brapp (valoraresoftware) - Abr a Ago 2025:**
+- App evoluiu de v2.0.1 para v2.2.0 (15+ releases)
+- Infraestrutura Firestore modularizada
 - Ranking com filtros dinâmicos e compartilhamento
 - Sistema de tolerâncias personalizadas por trilha
 - Performance otimizada com carregamento assíncrono
