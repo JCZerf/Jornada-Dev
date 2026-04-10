@@ -28,10 +28,7 @@ Com a base sólida de performance e validações, o foco passou para funcionalid
 ## COMMITS RELEVANTES
 
 ```
-2025-08-01 | fix: Adjusts the tolerance between activity points and trail to 50m
-2025-08-01 | Update app version to 2.1.6
-2025-08-01 | Update app version to 2.1.7
-2025-08-04 | Change tolerance for lap calculation (50) and start/end radius (20)
+2025-08-04 | Change the tolerance used for lap calculation and percentage to 50, and set the radius for the start and end point to 20
 2025-08-04 | Update app version to 2.1.8
 2025-08-07 | feat: Implementa sistema de tolerâncias personalizadas para trilhas
 2025-08-07 | feat: increase GPS precision settings
