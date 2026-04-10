@@ -37,25 +37,26 @@ Início do estágio na Pluritech com integração ao projeto Brapp (aplicativo m
 ## COMMITS RELEVANTES
 
 ```
-2025-06-06 | Add changelog detailing recent fixes and improvements
-2025-06-10 | adicao botao retorna a posicao atual e pin
 2025-06-10 | Correção do bug ranking usuario
-2025-06-11 | Updates to v2.0.6 with ranking and map UI fixes
-2025-06-13 | Create_print_ranking
+2025-06-10 | adicao botao retorna a posicao atual e pin
 2025-06-13 | Png_print_ranked
+2025-06-13 | Create_print_ranking
+2025-06-13 | update version to 2.0.7
 2025-06-16 | Correção bug tempo "maior"
 2025-06-17 | Melhorias na tela printRanked e Sliding_box
+2025-06-17 | Alteração da msg compartilhamento
 2025-06-17 | Verificação economia de bateria
-2025-06-18 | Adicionando background svg
 2025-06-18 | permitir usuario android mudar email
-2025-06-20 | fix: Adjusts device motion detection logic
-2025-06-23 | fix: improve trail similarity comparison
+2025-06-18 | Adicionando background svg
+2025-06-23 | fix: improve trail similarity comparison and add background SVG asset
 2025-06-24 | feat: filtros e categorias no ranking
-2025-06-24 | Adicionando trazer a trilha clicando no container
-2025-06-25 | Remoção de SVG, aplicação de PNG no ranking
+2025-06-24 | Adicionando trazer a trilha clicando no container, onde exibi o nome da trilha
+2025-06-25 | Remoção de SVG, aplicação de PNG no ranking, delay ajustado e remoção de medalhas
 2025-06-26 | Adicionado avisos para o usuário na hora de gravar tempo
-2025-06-30 | IMPL compartilhar ranking por categoria
 2025-06-30 | IMPL Print categoria
+2025-06-30 | print categoria/arquivo duplicado
+2025-06-30 | IMPL compartilhar ranking por categoria
+2025-06-30 | IMPL ellipsis na slidingbox e ranking_widget
 ```
 
 ## RESULTADO
