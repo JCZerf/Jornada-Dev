@@ -175,7 +175,8 @@ Abr/2026: 150+ commits, desenvolvedor autônomo
 │   └─ 12-dezembro.md  ← Solar Energy: Docker + TaskLite
 └─ 2026/
     ├─ 01-janeiro.md   ← Linear Algebra API
-    ├─ 03-marco.md     ← VivaFit: Início projeto PUC
+    ├─ 02-fevereiro.md ← VivaFit: Início do projeto
+    ├─ 03-marco.md     ← VivaFit: Scrum, BPMN
     └─ 04-abril.md     ← AgendaLuz + VivaFit
 ```
 
@@ -196,7 +197,8 @@ Abr/2026: 150+ commits, desenvolvedor autônomo
 
 **2026:**
 - [Janeiro 2026](./2026/01-janeiro.md) - Linear Algebra API
-- [Março 2026](./2026/03-marco.md) - VivaFit: Início projeto PUC (Scrum, BPMN)
+- [Fevereiro 2026](./2026/02-fevereiro.md) - VivaFit: Início do projeto PUC
+- [Março 2026](./2026/03-marco.md) - VivaFit: Scrum, BPMN, wireframes
 - [Abril 2026](./2026/04-abril.md) - AgendaLuz: Dashboard financeiro + VivaFit
 
 ---
