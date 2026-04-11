@@ -1,17 +1,41 @@
-# Maio 2024 - Evolução Geral
+# Maio 2024
 
-> Relatório gerado automaticamente a partir da sua atividade no GitHub (commits e PRs merged).
+Primeiro mês de atividade no GitHub.
 
-## RESUMO
+## Resumo
 
-- Commits no GitHub: **1**
-- PRs merged no GitHub: **0**
+| Métrica | Valor |
+|---------|-------|
+| Commits | 1 |
+| PRs Merged | 0 |
+| Repositórios Criados | 1 |
 
-## PROJETOS COM ATIVIDADE (COMMITS)
+## Projeto: Adivinhe o Número
 
-- JCZerf/Adivinhe_o_numero: 1 commit(s)
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/Adivinhe_o_numero](https://github.com/JCZerf/Adivinhe_o_numero) |
+| Criado em | 23/05/2024 |
+| Linguagem | HTML/CSS/JavaScript |
+| Demo | [projeto-js-two.vercel.app](https://projeto-js-two.vercel.app) |
 
-## COMMITS (SELEÇÃO)
+Jogo interativo onde o usuário tenta adivinhar um número gerado aleatoriamente.
+
+### Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+- Vercel (deploy)
+
+### Conceitos aplicados
+
+- Manipulação do DOM
+- Math.random() para números aleatórios
+- Estruturas condicionais
+- Eventos de clique e input
+
+## Commits
 
 ```
 2024-05-23 | JCZerf/Adivinhe_o_numero | b5f0217 | Add files via upload

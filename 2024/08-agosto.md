@@ -1,12 +1,11 @@
-# Agosto 2024 - Evolução Geral
+# agosto 2024
 
-> Relatório gerado automaticamente a partir da sua atividade no GitHub (commits e PRs merged).
+## Resumo
 
-## RESUMO
+| Métrica | Valor |
+|---------|-------|
+| Commits | 0 |
+| PRs Merged | 0 |
+| Repositórios Criados | 0 |
 
-- Commits no GitHub: **0**
-- PRs merged no GitHub: **0**
-
-## NOTAS
-
-- Sem atividade registrada no GitHub neste mês.
+Sem atividade registrada no GitHub.

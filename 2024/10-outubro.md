@@ -1,24 +1,93 @@
-# Outubro 2024 - Evolução Geral
+# Outubro 2024
 
-> Relatório gerado automaticamente a partir da sua atividade no GitHub (commits e PRs merged).
+Mês mais produtivo de 2024.
 
-## RESUMO
+## Resumo
 
-- Commits no GitHub: **22**
-- PRs merged no GitHub: **0**
+| Métrica | Valor |
+|---------|-------|
+| Commits | 22 |
+| PRs Merged | 0 |
+| Repositórios Criados | 8 |
 
-## PROJETOS COM ATIVIDADE (COMMITS)
+## Projetos
 
-- JCZerf/Imc_3.0: 5 commit(s)
-- JCZerf/calcular-autonomia-combustivel: 5 commit(s)
-- JCZerf/E_um_palindromo: 4 commit(s)
-- JCZerf/Aluguel_de_games: 1 commit(s)
-- JCZerf/Adivinhe_o_numero: 1 commit(s)
-- JCZerf/Calculadora_simples: 1 commit(s)
-- JCZerf/Sorteador_de_numeros: 1 commit(s)
-- JCZerf/Adivinhe-o-numero: 1 commit(s)
+### 1. IMC 3.0
 
-## COMMITS (SELEÇÃO)
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/Imc_3.0](https://github.com/JCZerf/Imc_3.0) |
+| Criado em | 11/10/2024 |
+| Commits | 5 |
+| Demo | [imc-3-0.vercel.app](https://imc-3-0.vercel.app) |
+
+Versão melhorada da calculadora de IMC de junho. Interface aprimorada.
+
+Conceitos: Refatoração, organização de assets.
+
+---
+
+### 2. Calculadora de Autonomia de Combustível
+
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/calcular-autonomia-combustivel](https://github.com/JCZerf/calcular-autonomia-combustivel) |
+| Criado em | 22/10/2024 |
+| Commits | 5 |
+| Demo | [calcular-autonomia-combustivel.vercel.app](https://calcular-autonomia-combustivel.vercel.app) |
+
+Calculadora para consumo de combustível, custo e tempo de viagem.
+
+Funcionalidades:
+- Cálculo de consumo por km
+- Estimativa de custo
+- Tempo estimado de viagem
+
+---
+
+### 3. É um Palíndromo
+
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/E_um_palindromo](https://github.com/JCZerf/E_um_palindromo) |
+| Criado em | 15/10/2024 |
+| Commits | 4 |
+
+Verificador de palíndromos. Estudo de manipulação de strings (reverse, split, join).
+
+---
+
+### 4. Projetos de Estudo (1 commit cada)
+
+| Projeto | Descrição |
+|---------|-----------|
+| [Aluguel_de_games](https://github.com/JCZerf/Aluguel_de_games) | Sistema de aluguel de jogos |
+| [Calculadora_simples](https://github.com/JCZerf/Calculadora_simples) | Calculadora com teclado numérico |
+| [Sorteador_de_numeros](https://github.com/JCZerf/Sorteador_de_numeros) | Gerador de números aleatórios |
+| [Adivinhe-o-numero](https://github.com/JCZerf/Adivinhe-o-numero) | Variação do primeiro projeto |
+| [Carrinho-de-compra](https://github.com/JCZerf/Carrinho-de-compra) | Sistema de e-commerce simples |
+| [Compra-de-ingresso](https://github.com/JCZerf/Compra-de-ingresso) | Sistema de venda de ingressos |
+
+---
+
+### 5. Fly Bird
+
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/Fly-bird](https://github.com/JCZerf/Fly-bird) |
+| Criado em | 29/10/2024 |
+| Commits | 1 |
+
+Clone do Flappy Bird. Estudo de lógica de jogos 2D, animações e detecção de colisão.
+
+## Tecnologias do mês
+
+- HTML5
+- CSS3
+- JavaScript
+- Vercel
+
+## Commits
 
 ```
 2024-10-11 | JCZerf/Imc_3.0 | 5bfb21b | Add files via upload
