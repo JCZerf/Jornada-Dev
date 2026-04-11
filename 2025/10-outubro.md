@@ -28,18 +28,22 @@ Início do desenvolvimento da aplicação web Solar Energy em .NET/C#. Implement
 ## COMMITS RELEVANTES
 
 ```
-2025-10-14 | Update 04-Projeto de Interface.md (múltiplos uploads)
-2025-10-15 | Update class diagram in architecture documentation
-2025-10-16 | Projeto da base de dados atualizado
-2025-10-16 | Ajustando documentação de acordo com o novo diagrama
+2025-10-02 | Atualização quedro sprint e backlog
+2025-10-16 | Projeto da base de dados atualizado com as correções
+2025-10-16 | Ajustando documentação de acordo com o novo diagrama da base de  dados
+2025-10-16 | ajuste documentação da ER
+2025-10-16 | Ajuste documentação do diagrama de classes
 2025-10-20 | Initial Solar Energy Platform
-2025-10-23 | feat: alterações no cadastro, logo e implementações básicas
-2025-10-25 | Add new requirements for error messages and security
-2025-10-25 | Update 08-Plano de Testes de Software.md
-2025-10-26 | Ajustes na validação para permitir cadastro
-2025-10-26 | Preenchimento do documento registro de testes
+2025-10-20 | Update src README
+2025-10-25 | ajustando nome do appsettings.json
+2025-10-26 | Ajustes na validação para permitir cadastro de empresa e usuário
+2025-10-26 | Merge pull request #2 from ICEI-PUC-Minas-PMV-ADS/Ajustes_na_validacao_do_cadastro
+2025-10-26 | Merge pull request #1 from ICEI-PUC-Minas-PMV-ADS/develop
+2025-10-26 | Update 03-Metodologia.md
+2025-10-26 | Update 04-Projeto de Interface.md
+2025-10-26 | Preenchimento do documento registro de testes de usabilidade
+2025-10-26 | Preenchimeno do documento Programação de Funcionalidades
 2025-10-30 | Update 05-Arquitetura da Solução.md
-2025-10-31 | Tela busca de empresas e ajustes no menu
 ```
 
 ## RESULTADO

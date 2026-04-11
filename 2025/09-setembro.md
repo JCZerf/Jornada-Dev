@@ -22,14 +22,17 @@ Início do segundo semestre na PUC Minas com o projeto integrador Solar Energy -
 ## COMMITS RELEVANTES
 
 ```
-2025-09-04 | Update 02-Especificação do Projeto.md
 2025-09-08 | Update 04-Projeto de Interface.md
-2025-09-09 | Add files via upload (wireframes)
-2025-09-10 | Update 03-Metodologia.md
-2025-09-10 | Update 04-Projeto de Interface.md
+2025-09-08 | Update 02-Especificação do Projeto.md
 2025-09-24 | Update 04-Projeto de Interface.md
-2025-09-25 | Add files via upload (mockups)
-2025-09-26 | Add files via upload
+2025-09-28 | Ajuste documento para entrega
+2025-09-28 | Legenda das telas wireframes da aplicação
+2025-09-28 | Adicionando imagens dos wireframes do projeto
+2025-09-28 | Preenchendo documento do diagrama de classes
+2025-09-28 | Adicionando imagem do diagrama de classe
+2025-09-28 | Adicionando contexto no modelo ER
+2025-09-28 | Contexto do projeto da base de dados
+2025-09-28 | Adicionando imagem do projeto da base de dados
 ```
 
 ## RESULTADO

@@ -20,8 +20,10 @@ Início do novo semestre na PUC Minas com o projeto integrador VivaFit - uma apl
 
 ## COMMITS RELEVANTES
 
+> Observação: neste mês os commits foram de inicialização do repositório (GitHub Classroom) e ajustes de README por integrante da equipe. **Não houve commits meus em fevereiro/2026** neste repositório.
+
 ```
-2026-02-24 | Initial commit
+2026-02-24 | Initial commit (github-classroom[bot])
 2026-02-26 | Update README.md
 2026-02-26 | Update README.md
 2026-02-26 | Update README.md

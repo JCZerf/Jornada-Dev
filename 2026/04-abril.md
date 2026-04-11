@@ -37,25 +37,32 @@ Retomada do projeto AgendaLuz com foco em melhorias de UX e dashboard financeiro
 ## COMMITS AgendaLuz
 
 ```
-2026-04-10 | Add financial dashboard screen and integrate financial statistics
-2026-04-10 | Add functionality to fetch next scheduled appointment for client
-2026-04-10 | Refactor app bar in AgendaScreen with gradient background
-2026-04-10 | Refactor client details modal with info cards and draggable sheet
-2026-04-10 | Add functionality to fetch last completed appointment
-2026-04-10 | Refactor color usage to use AppColors utility class
-2026-04-10 | Refactor backup service with debugPrint for error logging
-2026-04-10 | Refactor date selection to use month/year dropdowns
+2026-04-10 | Add financial dashboard screen and integrate financial statistics retrieval
+2026-04-10 | Add functionality to fetch the next scheduled appointment for a client and update UI accordingly
+2026-04-10 | Add functionality to fetch the last completed appointment for a client and update client tag display in the UI
+2026-04-10 | Refactor client details modal to improve layout and usability, replacing detail rows with info cards and adding a draggable scrollable sheet.
+2026-04-10 | Refactor app bar in AgendaScreen to enhance layout and usability, introducing a gradient background and reorganizing elements for better accessibility.
+2026-04-10 | Refactor date selection in Agenda and Atendimentos screens to use month/year dropdowns
+2026-04-10 | Refactor color usage across screens to utilize AppColors utility class
+2026-04-10 | Refactor backup service to use debugPrint for error logging and improve backup process flow
 ```
 
 ## COMMITS VivaFit
 
 ```
-2026-04-01 | Add flow diagram for VivaFit user interactions
-2026-04-02 | Revise flow diagram and wireframes descriptions
-2026-04-02 | Update 05-Arquitetura da Solução.md
-2026-04-04 | Update ER model image and description
+2026-04-04 | Remove Lucidchart links for BPMN processes to streamline documentation
 2026-04-04 | Update BPMN process images for improved clarity
-2026-04-04 | Refactor code structure for improved readability
+2026-04-04 | Update ER model description and links for clarity and accuracy
+2026-04-04 | Update ER model image
+2026-04-04 | Update ER model image link in documentation
+2026-04-04 | Update 05-Arquitetura da Solução.md
+2026-04-04 | Refactor code structure for improved readability and maintainability
+```
+
+## PRs RELEVANTES
+
+```
+2026-04-10 | JCZerf/Agenda_luz_app#1 | Refactor UI components and enhance appointment and financial features
 ```
 
 ## RESULTADO

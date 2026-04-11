@@ -27,14 +27,20 @@ Início do novo semestre na PUC Minas com o projeto VivaFit - uma aplicação vo
 ## COMMITS RELEVANTES
 
 ```
-2026-03-24 | Fix link formatting and enhance methodology description
-2026-03-25 | Update project specification indicators table
-2026-03-25 | Revise performance indicators for user-centric metrics
-2026-03-26 | Revise project roles and Scrum methodology description
-2026-03-26 | Revise team roles in project specification
-2026-03-26 | Revise methodology to include Scrum and GitHub usage
-2026-03-31 | Revise ferramentas e justificativas no projeto
-2026-03-31 | Update tools list in Metodologia document
+2026-03-03 | Update citation metadata
+2026-03-03 | Complete business process modeling section with requirements specification
+2026-03-18 | Aligns requirements prioritization with MoSCoW terms
+2026-03-24 | Fix link formatting and enhance methodology description in documentation
+2026-03-24 | Add links to detailed BPMN diagrams for Process 1 and Process 2
+2026-03-24 | Update BPMN process images and change file formats from SVG to PNG
+2026-03-24 | Remove pre-requisites note from methodology documentation
+2026-03-24 | Refactor code structure for improved readability and maintainability
+```
+
+## PRs RELEVANTES
+
+```
+2026-03-18 | ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-01-e3-projvivafit#24 | Aligns requirements prioritization with MoSCoW terms
 ```
 
 ## RESULTADO

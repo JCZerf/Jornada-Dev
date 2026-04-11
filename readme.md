@@ -1,6 +1,6 @@
-# Registro de Atividades - Estágio e Projetos Profissionais
+# Registro de Atividades - Evolução, Estágio e Projetos
 
-> Portfólio Técnico utilizando metodologia STAR | Documentação de atividades em desenvolvimento mobile, web e automação, iniciado em junho de 2025.
+> Portfólio técnico (metodologia STAR) + registro mensal de evolução em desenvolvimento mobile, web e automação, iniciado em maio de 2024.
 
 ---
 
@@ -23,7 +23,7 @@
 |--------|------------|-------|
 | Recrutador | [Sobre Minha Jornada](#sobre-minha-jornada-como-desenvolvedor) + [Cases STAR](#cases-star-prontos-para-entrevistas) + [Resumo Executivo](#resumo-executivo-para-recrutadores) | 5-7 min |
 | Tech Lead | [Progresso Atual](#progresso-atual) + [Stack Técnico](#stack-técnico--competências-desenvolvidas) | 5-7 min |
-| Estudante | [Sobre Minha Jornada](#sobre-minha-jornada-como-desenvolvedor) + [Relatórios mensais](./2025/junho.md) | 15-20 min |
+| Estudante | [Sobre Minha Jornada](#sobre-minha-jornada-como-desenvolvedor) + [Relatórios mensais](./2025/06-junho.md) | 15-20 min |
 | Análise Completa | Documento inteiro + arquivos mensais | 25-35 min |
 
 > **Para recrutadores:** Vá direto para [Cases STAR](#cases-star-prontos-para-entrevistas) e [Resumo Executivo](#resumo-executivo-para-recrutadores)
@@ -148,7 +148,11 @@ Ago/2024: Primeiro "Hello World"
     |
 Jan/2025: Ingresso na faculdade
     |
-Abr/2025: Primeiro estágio (Valoare/Pluritech)
+Mai/2024: Primeiros repositórios no GitHub
+    |
+Abr/2025: Projetos pessoais (pré-estágio)
+    |
+Jun/2025: Início do estágio (Pluritech/Valoare)
     |
 Ago/2025: App Brapp v2.2.0 em produção
     |
@@ -163,9 +167,21 @@ Abr/2026: 150+ commits, desenvolvedor autônomo
 /
 ├─ README.md
 ├─ template_mes.md
+├─ 2024/
+│   ├─ 05-maio.md      ← Projetos iniciais (GitHub)
+│   ├─ 06-junho.md     ← Projetos iniciais (GitHub)
+│   ├─ 07-julho.md     ← Sem atividade registrada
+│   ├─ 08-agosto.md    ← Sem atividade registrada
+│   ├─ 09-setembro.md  ← Sem atividade registrada
+│   ├─ 10-outubro.md   ← Volume alto de commits (projetos iniciais)
+│   ├─ 11-novembro.md  ← Sem atividade registrada
+│   └─ 12-dezembro.md  ← Sem atividade registrada
 ├─ 2025/
-│   ├─ 04-abril.md     ← Brapp: Primeiras contribuições
-│   ├─ 05-maio.md      ← Brapp: Firestore Service, mapas
+│   ├─ 01-janeiro.md   ← Projetos iniciais (GitHub)
+│   ├─ 02-fevereiro.md ← Sem atividade registrada
+│   ├─ 03-marco.md     ← Estudo Inteligente: documentação e organização
+│   ├─ 04-abril.md     ← Pré-estágio: Estudo Inteligente
+│   ├─ 05-maio.md      ← Pré-estágio: Estudo Inteligente + API Hotel Pets
 │   ├─ 06-junho.md     ← Brapp: Ranking, compartilhamento
 │   ├─ 07-julho.md     ← Brapp + AgendaLuz MVP + CNH Validation
 │   ├─ 08-agosto.md    ← Brapp: Tolerâncias, GPS, foto (v2.2.0)
@@ -182,9 +198,26 @@ Abr/2026: 150+ commits, desenvolvedor autônomo
 
 ### Navegação por Mês
 
+**2024 - Início (GitHub / projetos pessoais):**
+- [Maio 2024](./2024/05-maio.md) - Primeiros repositórios
+- [Junho 2024](./2024/06-junho.md) - Primeiros repositórios
+- [Julho 2024](./2024/07-julho.md) - Sem atividade registrada
+- [Agosto 2024](./2024/08-agosto.md) - Sem atividade registrada
+- [Setembro 2024](./2024/09-setembro.md) - Sem atividade registrada
+- [Outubro 2024](./2024/10-outubro.md) - Projetos iniciais (volume alto)
+- [Novembro 2024](./2024/11-novembro.md) - Sem atividade registrada
+- [Dezembro 2024](./2024/12-dezembro.md) - Sem atividade registrada
+
+**2025 - Início do ano (GitHub / projetos pessoais):**
+- [Janeiro 2025](./2025/01-janeiro.md) - Projetos iniciais
+- [Fevereiro 2025](./2025/02-fevereiro.md) - Sem atividade registrada
+- [Março 2025](./2025/03-marco.md) - Estudo Inteligente: documentação e organização
+
+**2025 - Pré-estágio (projetos pessoais):**
+- [Abril 2025](./2025/04-abril.md) - Estudo Inteligente: documentação e interface
+- [Maio 2025](./2025/05-maio.md) - Estudo Inteligente + API Hotel Pets: evolução de telas + API CRUD
+
 **2025 - Estágio (Brapp/Valoare):**
-- [Abril 2025](./2025/04-abril.md) - Brapp: Primeiras contribuições, UI/UX, geo queries
-- [Maio 2025](./2025/05-maio.md) - Brapp: Firestore Service, marcadores, circuitos
 - [Junho 2025](./2025/06-junho.md) - Brapp: Ranking por categorias, compartilhamento
 - [Julho 2025](./2025/07-julho.md) - Brapp: Performance + AgendaLuz MVP + CNH Validation
 - [Agosto 2025](./2025/08-agosto.md) - Brapp: Tolerâncias, GPS, foto de perfil (v2.2.0)

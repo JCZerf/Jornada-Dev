@@ -86,6 +86,24 @@ MVP de app de gestão para profissionais autônomos:
 2025-07-15 | 🔧 Correções para dispositivos físicos - Sistema de notificações robusto
 ```
 
+## PROJETO: CNH Validation (MOST/Windmill)
+
+MVP de sistema de validação de CNH:
+- Tratamento de documentos (incluindo RG)
+- Estrutura de projeto e documentação técnica
+- Versão MVP do workflow
+
+## COMMITS CNH Validation
+
+```
+2025-07-27 | Versão MPV  windmill
+2025-07-27 | corrigindo estrutura do projeto markdown
+2025-07-27 | aprimorando alguns tratamentos de falhas
+2025-07-27 | melhorando tratamento rg
+2025-07-27 | aprimorando doc técnico
+2025-07-30 | change type file
+```
+
 ## RESULTADO
 
 - Brapp evoluiu de v2.0.11 para v2.1.5 (6 versões)

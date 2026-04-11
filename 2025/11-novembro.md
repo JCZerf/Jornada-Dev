@@ -38,18 +38,17 @@ Mês de desenvolvimento intensivo com implementação de funcionalidades avança
 ## COMMITS RELEVANTES
 
 ```
-2025-11-03 | Implementação inicial detalhes da empresa
+2025-11-03 | Implementação inicial detalhes da empresa.
 2025-11-03 | Melhoria nos cards onde exibe as empresas
-2025-11-03 | Adicionando tipo de serviço no cadastro das empresas
-2025-11-04 | Adicionando auto-complete cidade/estado
-2025-11-04 | Implementação da tela de relatórios mensais
-2025-11-04 | Ajuste visual de cores header e footer
-2025-11-06 | Implementação de respostas das empresas para clientes
-2025-11-08 | Sistema de Chat em tempo real + Leads + Relatórios PDF/CSV
+2025-11-03 | Adicionando nova informação no cadastro das empresas, o tipo de serviço que ela oferece, venda de paineis solares ou aluguel de energia solar
+2025-11-04 | Adicionando auto-complete no preenchimento do campo cidade/estado na tela de perfil do usuário
+2025-11-06 | Implementação validada da resposta da empresa para cliente
 2025-11-08 | Ajuste gerador de relatório
-2025-11-09 | Implementação funcionalidades admin + tela configuração + painel usuário
+2025-11-09 | Implementação de todas as funcionalidades básicas para os administradores e implementação da tela de configuração que não existia, além do painel de usuário que não existia também.
 2025-11-13 | Correção do chat que não estava funcionando
-2025-11-13 | Ajustes na tela de adm
+2025-11-13 | Ajustes na tela de adm resolvendo os erros encontrados.
+2025-11-23 | Update 03-Metodologia.md
+2025-11-23 | Update 07-Programação de Funcionalidades.md
 ```
 
 ## RESULTADO
