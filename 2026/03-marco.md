@@ -1,64 +1,111 @@
-# Março 2026 - VivaFit (PUC Minas)
+# Março 2026
 
-> Início do projeto VivaFit - Aplicação de fitness
+## Resumo
 
-## SITUAÇÃO
+| Métrica | Valor |
+|---------|-------|
+| Commits | 92 |
+| PRs Merged | 26 |
+| Projetos Ativos | 6 |
 
-Início do novo semestre na PUC Minas com o projeto VivaFit - uma aplicação voltada para fitness e bem-estar. Foco em documentação, metodologia e design inicial.
+## Projetos
 
-## PRINCIPAIS ENTREGAS
+### 1. most-rpa-hyperautomation (Projeto Pessoal)
 
-### Documentação e Metodologia
-- Definição de papéis Scrum na equipe
-- Metodologia com Scrum e GitHub
-- Ferramentas e justificativas do projeto
-- Indicadores de performance centrados no usuário
+Bot de automação RPA com API.
 
-### Design de Interface
-- Diagrama de fluxo de interações do usuário
-- Wireframes das telas
-- Modelo ER documentado
-- Arquitetura da solução
+| Área | Implementações |
+|------|----------------|
+| Bot | Modularização, arquitetura async, stealth browser |
+| API | OAuth2, Gunicorn, documentação |
+| Testes | E2E smoke tests, unit tests, stress testing |
+| WAF | Detecção e normalização de resultados |
+| Logs | Structured logging, observability |
+| Browser | Profiles randomizados, stealth options |
+| Validação | CPF/NIS com pontuação, fuzzy name matching |
 
-### Processos BPMN
-- Diagramas de processos BPMN
-- Atualização de imagens para clareza
+Commits: 44
+PRs Merged: 13
 
-## COMMITS RELEVANTES
+### 2. i9-gestao-de-projetos-api (Valorare Software)
+
+| Área | Implementações |
+|------|----------------|
+| Despesas | Ajuste back-end |
+| Clientes | Ajuste no cadastro |
+| Versionamento | Implementação |
+| Representante Legal | Cadastro |
+| Beneficiário | Relação, bloqueio financeiro, importação |
+| Turmas | Banco de dados |
+| Unicidade | CPF, telefone duplicados |
+
+Commits: 18
+PRs Merged: 4
+
+### 3. admin-nfe-service (Valorare Software)
+
+Novo projeto de gestão de ocorrências NFe.
+
+| Área | Implementações |
+|------|----------------|
+| Ocorrências | Backend e UI de gestão |
+| CI/CD | Workflows de deploy API e web |
+| Auth | Interceptor 401, cookie handling |
+| PM2 | Comandos de restart |
+
+Commits: 16
+PRs Merged: 5
+
+### 4. VivaFit - PUC Minas (Projeto Acadêmico)
+
+| Área | Implementações |
+|------|----------------|
+| Documentação | Citation metadata, business process modeling |
+| Requisitos | MoSCoW prioritization |
+| BPMN | Diagramas de processos (PNG) |
+| Metodologia | Links e descrições |
+
+Commits: 8
+PRs Merged: 1
+
+### 5. nfe-ncm-service (Valorare Software)
+
+| Área | Implementações |
+|------|----------------|
+| Notificações | Email para fechamento de ocorrências |
+| Deploy | Workflow manual |
+| Bot NCM | Funcionalidades |
+| Testes | Redirect testing utility |
+
+Commits: 3
+
+### 6. financial_insight (Projeto Pessoal)
+
+| Área | Implementações |
+|------|----------------|
+| Scraping | Pipeline de FII com normalização |
+| DB | Modelo de dados |
+| Arquitetura | Ingestor async com observability |
+
+PRs Merged: 2
+
+## PRs Merged (seleção)
 
 ```
-2026-03-03 | Update citation metadata
-2026-03-03 | Complete business process modeling section with requirements specification
-2026-03-18 | Aligns requirements prioritization with MoSCoW terms
-2026-03-24 | Fix link formatting and enhance methodology description in documentation
-2026-03-24 | Add links to detailed BPMN diagrams for Process 1 and Process 2
-2026-03-24 | Update BPMN process images and change file formats from SVG to PNG
-2026-03-24 | Remove pre-requisites note from methodology documentation
-2026-03-24 | Refactor code structure for improved readability and maintainability
+2026-03-05 | i9-gestao-de-projetos-api#52 | Cadastro beneficiário
+2026-03-13 | most-rpa-hyperautomation#1 | Upgrade rpa
+2026-03-14 | most-rpa-hyperautomation#8 | E2E tests, hyperautomation
+2026-03-18 | pmv-ads-2026-01-e3-projvivafit#24 | MoSCoW terms
+2026-03-18 | admin-nfe-service#2 | Occurrence management + CI/CD
+2026-03-21 | financial_insight#1 | FII scraping pipeline
+2026-03-25 | admin-nfe-service#4 | Develop
 ```
 
-## PRs RELEVANTES
+## Stack
 
-```
-2026-03-18 | ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-01-e3-projvivafit#24 | Aligns requirements prioritization with MoSCoW terms
-```
-
-## RESULTADO
-
-- Projeto VivaFit iniciado
-- Documentação estruturada
-- Metodologia Scrum definida
-- Design inicial concluído
-
----
-
-### Stack Técnico
-- **Documentação** - Markdown, diagramas
-- **BPMN** - Processos de negócio
-- **Scrum** - Metodologia ágil
-- **GitHub** - Controle de versão e projetos
-
-### Aprendizados
-- Aplicação de Scrum em projetos acadêmicos
-- Modelagem de processos BPMN
-- Indicadores de performance de software
+- Python (Flask, Playwright)
+- NestJS
+- Vue.js
+- PostgreSQL
+- GitHub Actions
+- PM2

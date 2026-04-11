@@ -1,85 +1,100 @@
-# Abril 2026 - AgendaLuz + VivaFit
+# Abril 2026
 
-> Evolução do projeto pessoal e continuação do projeto acadêmico
+Mês em andamento (até dia 10).
 
-## SITUAÇÃO
+## Resumo
 
-Retomada do projeto AgendaLuz com foco em melhorias de UX e dashboard financeiro. Continuação do projeto VivaFit da PUC Minas com arquitetura e documentação.
+| Métrica | Valor |
+|---------|-------|
+| Commits | 49 |
+| PRs Merged | 10 |
+| Projetos Ativos | 5 |
 
-## PRINCIPAIS ENTREGAS
+## Projetos
 
-### AgendaLuz - Dashboard Financeiro
-- Implementação de tela de dashboard financeiro
-- Integração de estatísticas financeiras
-- Visualização de dados de faturamento
+### 1. Comprix (Projeto Pessoal)
 
-### AgendaLuz - Gestão de Clientes
-- Busca do próximo agendamento do cliente
-- Exibição do último atendimento realizado
-- Tags de clientes na interface
-- Modal de detalhes do cliente com layout melhorado
-- Info cards substituindo detail rows
-- Draggable scrollable sheet para melhor navegação
+Aplicativo Flutter de comparação de preços.
 
-### AgendaLuz - Melhorias de Interface
-- Refatoração da app bar na AgendaScreen
-- Background gradiente para melhor visual
-- Reorganização de elementos para acessibilidade
-- Seleção de mês/ano com dropdowns
-- Refatoração de cores usando AppColors utility class
+| Área | Implementações |
+|------|----------------|
+| Preços | Categoria de preço variável |
+| Busca | Search functionality, suggestions |
+| UI | App icons, branding, color palette |
+| Análise | AnalysisPage integrada na navegação |
+| Normalização | Nomes de itens e categorias |
+| Shopping | Fluxo de adição de itens, user prompts |
 
-### VivaFit (PUC Minas)
-- Atualização de imagens BPMN
-- Modelo ER documentado
-- Arquitetura da solução definida
-- Refatoração de código para legibilidade
+Commits: 21
+PRs Merged: 2
 
-## COMMITS AgendaLuz
+### 2. Agenda_luz_app (Projeto Pessoal)
+
+Aplicativo Flutter de agendamentos.
+
+| Área | Implementações |
+|------|----------------|
+| Dashboard | Tela financeira com estatísticas |
+| Clientes | Próximo agendamento, último atendimento, tags |
+| Modal | Info cards, draggable scrollable sheet |
+| AppBar | Gradient background, layout refatorado |
+| Seleção | Dropdowns mês/ano |
+| Cores | AppColors utility class |
+| Backup | debugPrint para logs |
+
+Commits: 16
+PRs Merged: 1
+
+### 3. VivaFit - PUC Minas (Projeto Acadêmico)
+
+| Área | Implementações |
+|------|----------------|
+| BPMN | Atualização de imagens |
+| ER | Modelo e links atualizados |
+| Arquitetura | Solução documentada |
+| Código | Refatoração para legibilidade |
+
+Commits: 8
+
+### 4. i9-gestao-de-projetos (Valorare Software)
+
+| Área | Implementações |
+|------|----------------|
+| Despesas | Exclusão, validação de contas, edição, filtros |
+| Projeto | Campo Nº SLI |
+| Rendimentos | Gerenciamento na tela de despesa |
+| JSONB | Expense items |
+
+PRs Merged: 4
+
+### 5. nfe-ncm-service (Valorare Software)
+
+| Área | Implementações |
+|------|----------------|
+| NCM | Redirection flow com email |
+| Testes | Redirect testing utility |
+
+Commits: 3
+PRs Merged: 1
+
+## PRs Merged
 
 ```
-2026-04-10 | Add financial dashboard screen and integrate financial statistics retrieval
-2026-04-10 | Add functionality to fetch the next scheduled appointment for a client and update UI accordingly
-2026-04-10 | Add functionality to fetch the last completed appointment for a client and update client tag display in the UI
-2026-04-10 | Refactor client details modal to improve layout and usability, replacing detail rows with info cards and adding a draggable scrollable sheet.
-2026-04-10 | Refactor app bar in AgendaScreen to enhance layout and usability, introducing a gradient background and reorganizing elements for better accessibility.
-2026-04-10 | Refactor date selection in Agenda and Atendimentos screens to use month/year dropdowns
-2026-04-10 | Refactor color usage across screens to utilize AppColors utility class
-2026-04-10 | Refactor backup service to use debugPrint for error logging and improve backup process flow
+2026-04-01 | nfe-ncm-service#9 | NCM email notifications
+2026-04-03 | Comprix#1 | Refactor branding, search, normalization
+2026-04-08 | i9-gestao-de-projetos-api#55 | Expense deletion restrictions
+2026-04-08 | i9-gestao-de-projetos-api#56 | SLI number
+2026-04-08 | i9-gestao-de-projetos-web#75 | Expense management
+2026-04-08 | i9-gestao-de-projetos-web#76 | SLI field
+2026-04-09 | i9-gestao-de-projetos-api#57 | JSONB expense items
+2026-04-09 | i9-gestao-de-projetos-web#77 | Gerenciamento de rendimentos
+2026-04-10 | Agenda_luz_app#1 | UI components + financial features
+2026-04-10 | Comprix#2 | ShoppingPage readability
 ```
 
-## COMMITS VivaFit
+## Stack
 
-```
-2026-04-04 | Remove Lucidchart links for BPMN processes to streamline documentation
-2026-04-04 | Update BPMN process images for improved clarity
-2026-04-04 | Update ER model description and links for clarity and accuracy
-2026-04-04 | Update ER model image
-2026-04-04 | Update ER model image link in documentation
-2026-04-04 | Update 05-Arquitetura da Solução.md
-2026-04-04 | Refactor code structure for improved readability and maintainability
-```
-
-## PRs RELEVANTES
-
-```
-2026-04-10 | JCZerf/Agenda_luz_app#1 | Refactor UI components and enhance appointment and financial features
-```
-
-## RESULTADO
-
-- Dashboard financeiro funcional no AgendaLuz
-- Gestão de clientes mais completa
-- Interface mais moderna e acessível
-- VivaFit com arquitetura e documentação atualizadas
-- Projetos acadêmico e pessoal em paralelo
-
----
-
-### Stack Técnico
-- **Flutter** - Draggable sheets, gradients, custom widgets
-- **Dart** - Utility classes, async data fetching
-- **BPMN** - Processos de negócio
-- **UI/UX** - Info cards, dropdowns, acessibilidade
-- Padrões de UX para apps de gestão
-- Implementação de dashboards financeiros
-- Draggable scrollable sheets para mobile
+- Flutter/Dart
+- NestJS
+- Vue.js
+- PostgreSQL
