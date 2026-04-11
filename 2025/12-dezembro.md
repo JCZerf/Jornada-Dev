@@ -1,76 +1,93 @@
-# Dezembro 2025 - Solar Energy + TaskLite + Discursos Scan
+# Dezembro 2025
 
-> Finalização do projeto acadêmico e projetos pessoais
+Transição para o projeto i9 Gestão de Projetos.
 
-## SITUAÇÃO
+## Resumo
 
-Finalização do projeto Solar Energy para apresentação final do semestre. Também desenvolvimento de projetos pessoais: TaskLite (gerenciador de tarefas) e melhorias no Discursos Scan.
+| Métrica | Valor |
+|---------|-------|
+| Commits | 74 |
+| PRs Merged | 22 |
+| Projetos | 4 |
 
-## PRINCIPAIS ENTREGAS
+## Projetos
 
-### Solar Energy (Finalização)
-- Ambiente Docker completo (SQL Server + Redis)
-- DbSeeder com dados realísticos
-- Documentação técnica harmonizada
-- Apresentação final do projeto
-- Testes finais documentados
+### 1. i9-gestao-de-projetos (Valorare Software)
 
-### TaskLite (Projeto Pessoal)
-- Sistema de registro e login
-- Funcionalidades de gerenciamento de tarefas
-- Melhorias de redirecionamento
-- Versão inicial completa
+Início no novo projeto de gestão.
 
-### Discursos Scan
-- Documentação do projeto
-- Melhorias gerais
+#### API (NestJS)
 
-## COMMITS RELEVANTES
+| Área | Implementações |
+|------|----------------|
+| Beneficiários | Migrations, campos do formulário |
+| Ações | Tabela de ações |
+| Documentos | Envio nos formulários |
+| Turmas | Criação |
+| Modalidade | Fix migration |
 
-### Solar Energy
+PRs Merged: 5
+
+#### Web (Vue.js)
+
+| Área | Implementações |
+|------|----------------|
+| Beneficiários | Nova tela de cadastro |
+| Documentos | Envio de documentos |
+| Turmas | Ajuste criação |
+| Movimentações | Alterações na tela |
+| Clientes | Cadastro, reorganização menu |
+| Incentivos | Nova página (mocked) |
+| Projetos | Abrir ao clicar na linha |
+| Permissões | Ajuste no hook |
+| UI | Ajustes gerais |
+
+PRs Merged: 12
+
+### 2. Solar Energy (PUC Minas)
+
+| Área | Implementações |
+|------|----------------|
+| Merge | Final da aplicação |
+
+PRs Merged: 2
+
+### 3. All Clean Web
+
+Contribuição em projeto externo.
+
+| Área | Implementações |
+|------|----------------|
+| Variáveis | Remoção sem uso |
+| WhatsApp | Mensagem |
+| Cancelamento | Ajuste |
+
+PRs Merged: 2
+
+### 4. Task Lite (Projeto Pessoal)
+
+| Área | Implementações |
+|------|----------------|
+| Tasks | Feature básica |
+
+PRs Merged: 1
+
+## PRs Merged (seleção)
+
 ```
-2025-12-06 | feat: implementar ambiente Docker completo + harmonizar documentação técnica - Adicionar docker-compose.yml com SQL Server 2022 + Redis - Criar Dockerfile otimizado para aplicação .NET 8 - Implementar DbSeeder.cs com dados realísticos para desenvolvimento - Adicionar scripts Windows (start-dev.bat, reset-dev.bat) - Criar documentação completa DOCKER-SETUP.md - Atualizar 02-Especificação do Projeto.md com requisitos implementados - Corrigir 05-Arquitetura da Solução.md com tecnologias reais (.NET 8) - Atualizar 07-Programação de Funcionalidades.md com artefatos corretos - Alinhar diagramas de classe com modelos implementados - Incluir 7 usuários (1 admin, 3 empresas, 3 clientes) - Adicionar 15+ orçamentos e propostas com status variados - Implementar sistema de mensagens entre usuários - Criar avaliações de empresas (3-5 estrelas) - Configurar leads CPL com saldo e histórico - Incluir simulações de energia solar completas - Corrigir DbSeeder com modelos corretos do projeto - Ajustar Program.cs para seed opcional via argumentos - Documentar ambiente completo para novos desenvolvedores
-2025-12-06 | implementação de seed completa para teste e desenvolvimento da aplicação
-2025-12-06 | docker para versão correta
-2025-12-06 | ajustes para docker funcionar corretamente
-2025-12-06 | documentação da apresentação
-2025-12-06 | adicionando doc dos testes finais
-2025-12-06 | Update 12-Apresentação do Projeto.md
+2025-12-01 | i9-api#23 | Beneficiary form fields update
+2025-12-01 | i9-web#27 | Nova tela cadastro beneficiários
+2025-12-04 | i9-api#25 | Envio documento formulários
+2025-12-09 | all-clean-web#11 | Remoção variável sem uso
+2025-12-15 | i9-api#27 | Ajuste criação turmas
+2025-12-17 | i9-web#35 | Nova página Incentivos
+2025-12-22 | i9-web#41 | Cadastro clientes reorganização menu
 ```
 
-### TaskLite
-```
-2025-12-13 | registro e login
-2025-12-13 | ajustando os caminhos para relativo em vez de absoluto
-2025-12-14 | implementação das primeiras funcionalidades de uso da aplicação
-2025-12-14 | Adicionando diversas melhorias e funcionalidades para versão inicial do task
-2025-12-14 | Fix: Corrige redirecionamento 404 após registro
-2025-12-14 | Fix: Melhora redirecionamento após registro
-2025-12-14 | ajuste caminho
-```
+## Stack
 
-### Discursos Scan
-```
-2025-12-14 | doc
-```
-
-## RESULTADO
-
-- Projeto Solar Energy entregue e apresentado
-- Ambiente Docker configurado para desenvolvimento
-- TaskLite MVP funcional
-- Semestre acadêmico concluído com sucesso
-
----
-
-### Stack Técnico
-- **Docker** - Containerização (SQL Server, Redis)
-- **.NET 8** - Backend otimizado
-- **C#** - TaskLite backend
-- **HTML/CSS/JS** - Frontend projetos web
-
-### Aprendizados
-- Containerização com Docker
-- Configuração de ambientes de desenvolvimento
-- Seed de dados para testes
-- Desenvolvimento de projetos pessoais paralelos
+- NestJS
+- Vue.js
+- TypeScript
+- PostgreSQL
+- ASP.NET/C#

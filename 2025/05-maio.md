@@ -1,58 +1,66 @@
-# Maio 2025 - Projetos Pessoais (Estudo Inteligente + API Hotel Pets)
+# Maio 2025
 
-> Período pré-estágio: mais volume de entrega e primeiro back-end CRUD
+## Resumo
 
-## SITUAÇÃO
+| Métrica | Valor |
+|---------|-------|
+| Commits | 54 |
+| PRs Merged | 0 |
+| Projetos | 2 |
 
-Antes do estágio (iniciado em junho/2025), avancei em dois projetos pessoais:
-- **Estudo Inteligente**: evolução de telas e documentação.
-- **API Hotel Pets**: início e consolidação de uma API CRUD.
+## Projetos
 
-## PRINCIPAIS ENTREGAS
+### 1. Estudo Inteligente (PUC Minas)
 
-### Estudo Inteligente
-- Evolução do cronograma, tarefas, ranking e sessão de foco
-- Ajustes de UX e responsividade
-- Atualizações de documentação (templates, programação de funcionalidades, testes)
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/estudo_inteligente](https://github.com/JCZerf/estudo_inteligente) |
+| Commits | 23 |
 
-### API Hotel Pets
-- Setup inicial e estruturação do projeto
-- CRUD básico (GET/POST/PUT/DELETE)
-- Validações e ajustes de README
+Continuação do projeto acadêmico.
 
-## COMMITS RELEVANTES (GitHub)
+| Área | Implementações |
+|------|----------------|
+| Funcionalidades | Eventos, informações de tarefas |
+| Ranking | Sistema de ranking implementado |
+| Sessão de Foco | Timer, refatoração |
+| Prioridades | Mudanças nas telas de início, cronograma e tarefas |
+| LocalStorage | Manipulação de dados |
+| Perfil | Tela básica implementada |
+| Configurações | Funcionalidades restauradas |
+| Responsividade | Contraste de cores entre temas |
 
-### Estudo Inteligente (`JCZerf/estudo_inteligente`)
+### 2. API Hotel Pets
+
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/api-hotel-pets](https://github.com/JCZerf/api-hotel-pets) |
+| Commits | 31 |
+
+API REST para hotel de pets.
+
+| Área | Implementações |
+|------|----------------|
+| CRUD | Get, Post, Put, Delete |
+| Banco de dados | SQL, integração |
+| Validação | Campos obrigatórios |
+| Modularização | Estrutura do projeto |
+| Documentação | README detalhado |
+
+## Commits (seleção)
+
 ```
-2025-05-13 | Aprimorando a tela de cronograma
-2025-05-13 | Implementações na sessão de foco
-2025-05-13 | Melhorias na tela de tarefas
-2025-05-14 | Sincronização e atualização da tela de inicio, tarefas e cronograma
-2025-05-15 | Implementação de eventos no cronograma
-2025-05-15 | Implementação de arrastar tarefas cronograma
-2025-05-24 | Melhorando o sistema de ranking
-2025-05-25 | Aprimorando responsividade e contraste de cores entre os temas
-2025-05-25 | Implementando tela de perfil básica
-2025-05-26 | aprimorando a manipulação do localstorage
-2025-05-27 | Restaurando funcionalidades das configurações
+2025-05-22 | estudo_inteligente | 05391ca | Implementando eventos e informações de tarefas
+2025-05-24 | estudo_inteligente | 6394617 | Melhorando o sistema de ranking
+2025-05-24 | estudo_inteligente | 9700804 | Refatoração da sessão de foco
+2025-05-29 | api-hotel-pets | 82306bc | Base da API
+2025-05-29 | api-hotel-pets | 88a63d0 | Implementando: Get e Post na API
+2025-05-31 | api-hotel-pets | 9e434c0 | Finalizando os CRUD's básicos PUT & DELETE
+2025-05-31 | api-hotel-pets | 04ed6c1 | Implementando Get com banco de dados
 ```
 
-### API Hotel Pets (`JCZerf/api-hotel-pets`)
-```
-2025-05-29 | Initial commit
-2025-05-29 | Iniciando a criação da API
-2025-05-29 | Implementando: Get e Post na API
-2025-05-29 | Modularização da API
-2025-05-29 | Finalizando os CRUD básicos da minha API, e reescrevendo o texto do README
-2025-05-31 | Iniciando a criação do SQL
-2025-05-31 | Implementando Get com banco de dados
-2025-05-31 | Implementando o INSERT no banco de dados (POST)
-2025-05-31 | Finalizando os CRUD's básicos PUT & DELETE
-2025-05-31 | Detalhando o projeto no README com markdown
-```
+## Stack
 
-## RESULTADO
-
-- Evolução consistente em um projeto front-end (Estudo Inteligente)
-- Primeira API CRUD estruturada e documentada (Hotel Pets)
-- Base sólida de prática antes do início do estágio em junho/2025
+- Node.js
+- SQL
+- HTML/CSS/JavaScript

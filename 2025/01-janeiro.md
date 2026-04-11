@@ -1,19 +1,43 @@
-# Janeiro 2025 - Evolução Geral
+# Janeiro 2025
 
-> Relatório gerado automaticamente a partir da sua atividade no GitHub (commits e PRs merged).
+## Resumo
 
-## RESUMO
+| Métrica | Valor |
+|---------|-------|
+| Commits | 4 |
+| PRs Merged | 0 |
+| Projetos | 3 |
 
-- Commits no GitHub: **4**
-- PRs merged no GitHub: **0**
+## Projetos
 
-## PROJETOS COM ATIVIDADE (COMMITS)
+### Defenda o Reino
 
-- JCZerf/Defenda_o_reino: 2 commit(s)
-- JCZerf/verifica-idade-cnh: 1 commit(s)
-- JCZerf/boa-semana-ou-bom-fim-de-semana-: 1 commit(s)
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/Defenda_o_reino](https://github.com/JCZerf/Defenda_o_reino) |
+| Commits | 2 |
 
-## COMMITS (SELEÇÃO)
+Jogo de defesa - estudo de lógica e algoritmos.
+
+### Verifica Idade CNH
+
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/verifica-idade-cnh](https://github.com/JCZerf/verifica-idade-cnh) |
+| Commits | 1 |
+
+Validador de idade para CNH.
+
+### Boa Semana ou Bom Fim de Semana
+
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/boa-semana-ou-bom-fim-de-semana-](https://github.com/JCZerf/boa-semana-ou-bom-fim-de-semana-) |
+| Commits | 1 |
+
+Estudo de lógica com datas.
+
+## Commits
 
 ```
 2025-01-23 | JCZerf/Defenda_o_reino | 5f63450 | first commit
@@ -21,3 +45,7 @@
 2025-01-26 | JCZerf/boa-semana-ou-bom-fim-de-semana- | c1d4e90 | first commit
 2025-01-26 | JCZerf/Defenda_o_reino | deda3d9 | Update app.js
 ```
+
+## Stack
+
+- HTML/CSS/JavaScript

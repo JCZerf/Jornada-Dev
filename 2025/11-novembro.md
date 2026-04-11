@@ -1,74 +1,79 @@
-# Novembro 2025 - Solar Energy (PUC Minas)
+# Novembro 2025
 
-> Desenvolvimento intensivo - Features avançadas da plataforma
+Mês mais intenso de 2025.
 
-## SITUAÇÃO
+## Resumo
 
-Mês de desenvolvimento intensivo com implementação de funcionalidades avançadas: chat em tempo real, sistema de leads, relatórios, e melhorias visuais significativas.
+| Métrica | Valor |
+|---------|-------|
+| Commits | 104 |
+| PRs Merged | 31 |
+| Projetos | 4 |
 
-## PRINCIPAIS ENTREGAS
+## Projetos
 
-### Sistema de Chat
-- Chat em tempo real entre clientes e empresas
-- Correção de bugs no chat
-- Interface de mensagens
+### 1. Brapp Life (Valorare Software)
 
-### Sistema de Leads e Pagamentos
-- Dashboard de gerenciamento de leads
-- Sistema de compra de leads com pacotes e descontos
-- Exportação de relatórios em PDF e CSV
+| Área | Implementações |
+|------|----------------|
+| Equipes | Fluxo de inscrição para torneios |
+| Anúncios | Após finalização de atividade |
+| Gravação | Em lote dos pontos das trilhas |
+| Pagamentos | Sistema de payments |
+| Assinatura | Subscription payments |
+| Pro Mode | Atualização |
+| Dashboard ADM | Implementação |
+| Free Mode | Ajustes |
+| Update | Required update app |
 
-### Relatórios e Dashboard
-- Relatórios mensais com KPIs e gráficos
-- Interface moderna e responsiva
-- Tela de relatórios mensais
+PRs Merged: 14
 
-### Painel Administrativo
-- Tela de configuração (nova)
-- Painel de usuário
-- Funcionalidades para administradores
+### 2. Solar Energy (PUC Minas)
 
-### Melhorias de UI/UX
-- Ajustes visuais na landing page
-- Melhoria nos cards de empresas
-- Ajustes de cores header e footer
-- Melhoria tela de cadastro e login
-- Auto-complete para cidade/estado
+| Área | Implementações |
+|------|----------------|
+| Busca | Busca de empresa |
+| UI | Visual cadastro, cards, telas |
+| Cidade | Search city |
+| Orçamentos | Response quotes |
+| Relatórios | Gerador de relatório |
+| Leads | Ajuste tela |
+| Navegação | Central da aplicação |
 
-## COMMITS RELEVANTES
+Commits: 40+
+PRs Merged: 11
+
+### 3. Someone Talking (Projeto Pessoal)
+
+API e App de rede social.
+
+| Projeto | PRs |
+|---------|-----|
+| api_someone_talking | 3 |
+| app_someone_talking | 3 |
+
+| Área | Implementações |
+|------|----------------|
+| Feed | CRUD básico |
+| Fotos | Upload de fotos de usuário |
+| Likes | Sistema de curtidas |
+
+## PRs Merged (seleção)
 
 ```
-2025-11-03 | Implementação inicial detalhes da empresa.
-2025-11-03 | Melhoria nos cards onde exibe as empresas
-2025-11-03 | Adicionando nova informação no cadastro das empresas, o tipo de serviço que ela oferece, venda de paineis solares ou aluguel de energia solar
-2025-11-04 | Adicionando auto-complete no preenchimento do campo cidade/estado na tela de perfil do usuário
-2025-11-06 | Implementação validada da resposta da empresa para cliente
-2025-11-08 | Ajuste gerador de relatório
-2025-11-09 | Implementação de todas as funcionalidades básicas para os administradores e implementação da tela de configuração que não existia, além do painel de usuário que não existia também.
-2025-11-13 | Correção do chat que não estava funcionando
-2025-11-13 | Ajustes na tela de adm resolvendo os erros encontrados.
-2025-11-23 | Update 03-Metodologia.md
-2025-11-23 | Update 07-Programação de Funcionalidades.md
+2025-11-03 | brapp-life#98 | Fluxo de inscrição equipe
+2025-11-03 | solar-energy#5 | Feature/busca de empresa
+2025-11-07 | solar-energy#13 | Response quotes
+2025-11-11 | brapp-life#103 | Payments
+2025-11-12 | brapp-life#104 | Subscription payments
+2025-11-14 | brapp-life#106 | Dashboard ADM
+2025-11-18 | api_someone_talking#1 | Feed basic crud
+2025-11-20 | api_someone_talking#3 | Likes feed
 ```
 
-## RESULTADO
+## Stack
 
-- Chat em tempo real funcionando
-- Sistema completo de leads
-- Relatórios exportáveis (PDF/CSV)
-- Painel administrativo completo
-- UI/UX significativamente melhorada
-
----
-
-### Stack Técnico
-- **.NET/C#** - Backend, SignalR para chat
-- **SQL Server** - Banco de dados
-- **JavaScript** - Interatividade, chat
-- **PDF/CSV** - Exportação de relatórios
-
-### Aprendizados
-- Comunicação em tempo real (SignalR)
-- Geração de relatórios dinâmicos
-- Sistemas de pagamento e leads
-- Padrões de dashboard administrativo
+- Flutter/Dart
+- Firebase
+- ASP.NET/C#
+- Node.js

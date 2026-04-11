@@ -1,55 +1,52 @@
-# Setembro 2025 - Solar Energy (PUC Minas)
+# Setembro 2025
 
-> Início do projeto acadêmico Solar Energy - Plataforma de energia solar
+## Resumo
 
-## SITUAÇÃO
+| Métrica | Valor |
+|---------|-------|
+| Commits | 30 |
+| PRs Merged | 11 |
+| Projetos | 2 |
 
-Início do segundo semestre na PUC Minas com o projeto integrador Solar Energy - uma plataforma web para conectar consumidores a empresas de energia solar. Foco inicial em documentação e design de interfaces.
+## Projetos
 
-## PRINCIPAIS ENTREGAS
+### 1. Brapp Life (Valorare Software)
 
-### Documentação do Projeto
-- Especificação do Projeto atualizada
-- Metodologia definida com processos ágeis
-- Arquitetura da solução documentada
+| Área | Implementações |
+|------|----------------|
+| Gravação | Nova tela, novo mapa, estrutura melhorada |
+| Ranking | UI de criação |
+| Torneio | Participação, inscrição, resultados MVP |
+| Mapa | Layers e carregamento de tracks |
+| Notificações | Tolerância, username, datetime |
+| Espectador | Modo spectator |
+| Watermark | Fix responsivo |
 
-### Design de Interface
-- Wireframes das telas principais
-- User Flow da aplicação
-- Projeto de interface com navegação
-- Uploads de mockups e protótipos
+PRs Merged: 11
 
-## COMMITS RELEVANTES
+### 2. Solar Energy (PUC Minas)
+
+| Área | Implementações |
+|------|----------------|
+| Interface | Projeto de interface |
+| Especificação | Atualizações |
+
+## PRs Merged
 
 ```
-2025-09-08 | Update 04-Projeto de Interface.md
-2025-09-08 | Update 02-Especificação do Projeto.md
-2025-09-24 | Update 04-Projeto de Interface.md
-2025-09-28 | Ajuste documento para entrega
-2025-09-28 | Legenda das telas wireframes da aplicação
-2025-09-28 | Adicionando imagens dos wireframes do projeto
-2025-09-28 | Preenchendo documento do diagrama de classes
-2025-09-28 | Adicionando imagem do diagrama de classe
-2025-09-28 | Adicionando contexto no modelo ER
-2025-09-28 | Contexto do projeto da base de dados
-2025-09-28 | Adicionando imagem do projeto da base de dados
+2025-09-05 | brapp-life#72 | Fix notifications tolerance username datetime
+2025-09-05 | brapp-life#73 | Melhoria da tela de gravação
+2025-09-05 | brapp-life#74 | Ranking creation UI
+2025-09-09 | brapp-life#75 | Map layer and tracks load
+2025-09-22 | brapp-life#77 | Correção data inscrição torneio
+2025-09-22 | brapp-life#78 | Tournament participation
+2025-09-25 | brapp-life#80 | Tournament results MVP
+2025-09-26 | brapp-life#81 | Tournament spectator and UI improvements
+2025-09-30 | brapp-life#82 | Responsive watermark fix
 ```
 
-## RESULTADO
+## Stack
 
-- Documentação inicial do projeto completa
-- Wireframes e user flows definidos
-- Arquitetura da solução planejada
-- Base sólida para início do desenvolvimento
-
----
-
-### Stack Técnico
-- **Documentação** - Markdown, diagramas
-- **Design** - Wireframes, User Flow
-- **Metodologia** - Scrum, GitHub Projects
-
-### Aprendizados
-- Planejamento de projeto em equipe
-- Documentação técnica estruturada
-- Design de interfaces web
+- Flutter/Dart
+- Firebase
+- ASP.NET

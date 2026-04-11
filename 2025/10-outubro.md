@@ -1,68 +1,57 @@
-# Outubro 2025 - Solar Energy (PUC Minas)
+# Outubro 2025
 
-> Desenvolvimento inicial da plataforma Solar Energy
+## Resumo
 
-## SITUAÇÃO
+| Métrica | Valor |
+|---------|-------|
+| Commits | 22 |
+| PRs Merged | 16 |
+| Projetos | 2 |
 
-Início do desenvolvimento da aplicação web Solar Energy em .NET/C#. Implementação das funcionalidades base e estrutura do projeto.
+## Projetos
 
-## PRINCIPAIS ENTREGAS
+### 1. Brapp Life (Valorare Software)
 
-### Estrutura do Projeto
-- Setup inicial do projeto .NET
-- Configuração de banco de dados
-- Diagrama de classes e ER atualizados
+| Área | Implementações |
+|------|----------------|
+| Torneios | Teams, fee, auto stop |
+| Tracking | Service na recording page |
+| Offline | Trilhas offline em torneios |
+| Comentários | Sistema completo + avaliações |
+| Pro Mode | Implementação + anúncios |
+| Convites | Sistema de convites |
+| Inscrição | Política de signup |
+| Filtros | Atividade e torneio |
 
-### Funcionalidades Implementadas
-- Sistema de cadastro de usuários e empresas
-- Validações de cadastro
-- Tela de busca de empresas
-- Detalhes da empresa
+PRs Merged: 14
 
-### Documentação
-- Registro de testes de software
-- Plano de testes
-- Programação de funcionalidades
-- Template padrão da aplicação
+### 2. Solar Energy (PUC Minas)
 
-## COMMITS RELEVANTES
+| Área | Implementações |
+|------|----------------|
+| Sprint | Quadro e backlog |
+| Banco de dados | Projeto e correções |
+| Diagrama | Classes e ER |
+| Código | Initial platform |
+
+PRs Merged: 2
+
+## PRs Merged (seleção)
 
 ```
-2025-10-02 | Atualização quedro sprint e backlog
-2025-10-16 | Projeto da base de dados atualizado com as correções
-2025-10-16 | Ajustando documentação de acordo com o novo diagrama da base de  dados
-2025-10-16 | ajuste documentação da ER
-2025-10-16 | Ajuste documentação do diagrama de classes
-2025-10-20 | Initial Solar Energy Platform
-2025-10-20 | Update src README
-2025-10-25 | ajustando nome do appsettings.json
-2025-10-26 | Ajustes na validação para permitir cadastro de empresa e usuário
-2025-10-26 | Merge pull request #2 from ICEI-PUC-Minas-PMV-ADS/Ajustes_na_validacao_do_cadastro
-2025-10-26 | Merge pull request #1 from ICEI-PUC-Minas-PMV-ADS/develop
-2025-10-26 | Update 03-Metodologia.md
-2025-10-26 | Update 04-Projeto de Interface.md
-2025-10-26 | Preenchimento do documento registro de testes de usabilidade
-2025-10-26 | Preenchimeno do documento Programação de Funcionalidades
-2025-10-30 | Update 05-Arquitetura da Solução.md
+2025-10-01 | brapp-life#83 | Tracking service in recording page
+2025-10-08 | brapp-life#85 | Tournament teams
+2025-10-13 | brapp-life#88 | Tournament fee and activity redirect
+2025-10-21 | brapp-life#90 | Offline tournament trails
+2025-10-22 | brapp-life#91 | Comentários e avaliações
+2025-10-24 | brapp-life#93 | Modo pro e anúncios
+2025-10-26 | solar-energy#1 | Develop
+2025-10-30 | brapp-life#96 | Invite system
 ```
 
-## RESULTADO
+## Stack
 
-- Plataforma inicial funcionando
-- Sistema de cadastro implementado
-- Busca de empresas funcional
-- Documentação técnica completa
-
----
-
-### Stack Técnico
-- **.NET/C#** - Backend da aplicação
-- **SQL Server** - Banco de dados
-- **HTML/CSS/JS** - Frontend
-- **Entity Framework** - ORM
-
-### Aprendizados
-- Desenvolvimento web com .NET
-- Padrão MVC em C#
-- Integração frontend/backend
-- Testes de software
+- Flutter/Dart
+- Firebase
+- ASP.NET/C#
+- SQL Server

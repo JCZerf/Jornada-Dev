@@ -1,131 +1,67 @@
-# Julho 2025 - Brapp + AgendaLuz + CNH Validation
+# Julho 2025
 
-> Mês de consolidação - Performance, validações robustas e projetos paralelos
+Primeiro mês de trabalho intenso no Brapp.
 
-## SITUAÇÃO
+## Resumo
 
-Com as funcionalidades básicas de ranking implementadas, o foco passou para otimização de performance, validações robustas e expansão do app para escala nacional. Também iniciei projetos paralelos: AgendaLuz e CNH Validation.
+| Métrica | Valor |
+|---------|-------|
+| Commits | 45 |
+| PRs Merged | 13 |
+| Projetos | 2 |
 
-## PRINCIPAIS ENTREGAS (Brapp)
+## Projetos
 
-### Performance e Carregamento
-- Carregamento assíncrono em batches usando Future.wait
-- Otimização de busca de trilhas com normalização de texto
-- Configuração correta de NetworkTileProvider para mapas OSM
-- Desativação de debug logs para melhor performance
+### 1. Brapp Life (Valorare Software)
 
-### Validações e Integridade de Dados
-- Validação de gravação de tempo com bestTime handling
-- Transações Firestore para operações atômicas
-- Bloqueio de navegação durante salvamento (WillPopScope)
-- Prevenção de crash em trilhas com coordenadas vazias
-- Campo de categoria obrigatório no perfil
+App de corrida e trilhas.
 
-### Sistema de Tolerâncias
-- Tolerância dinâmica baseada na distância da trilha
-- Ajustes de tolerância (20M, 50M) para diferentes cenários
-- Mensagem para volta incompleta
+| Área | Implementações |
+|------|----------------|
+| Categorias | Implementação nas telas |
+| Cidades | JSON com todas as cidades do Brasil |
+| Ranking | Validação de tempo, bestTime handling |
+| Performance | Carregamento assíncrono, debug logs desativados |
+| Busca | Normalização de texto em trilhas e cidades |
+| Perfil | Campo categoria obrigatório |
+| Mapas | NetworkTileProvider para OSM |
+| Firestore | Transações para operações atômicas |
+| UX | Bloqueio de navegação durante salvamento |
+| Tolerâncias | Sistema dinâmico (20M, 50M) |
+| Detalhes | Data/hora e username na tela |
 
-### Expansão Nacional
-- JSON com todas as cidades do Brasil
-- Melhoria na busca de cidades com normalização
+PRs Merged: 13
 
-### Melhorias de UX
-- Ajustes de fonts e espaçamento
-- Logo PNG na tela do mapa
-- Exibição de data/hora e username nos detalhes
-- Texto para usuários sem nome
+### 2. AgendaLuz (Projeto Pessoal)
 
-## PROJETO PARALELO: AgendaLuz
+| Campo | Valor |
+|-------|-------|
+| Repositório | [JCZerf/Agenda_luz_app](https://github.com/JCZerf/Agenda_luz_app) |
+| Commits | 2 |
 
-MVP de app de gestão para profissionais autônomos:
-- Sistema de agenda personalizada
-- Módulo financeiro
-- Gestão de clientes
-- Sistema de notificações robusto
+MVP de app de gestão para profissionais autônomos.
 
-## COMMITS RELEVANTES (Brapp)
+| Área | Implementações |
+|------|----------------|
+| Agenda | Sistema personalizado |
+| Financeiro | Módulo básico |
+| Clientes | Gestão |
+| Notificações | Sistema robusto |
 
-```
-2025-07-01 | feature/Acrescentando todas as cidades do brasil
-2025-07-01 | IMPL categorias nas telas/ajuste text "FIM"
-2025-07-03 | fix: ensure safe and valid save of best time in ranking
-2025-07-09 | feat: validate and refactor time saving logic with bestTime handling
-2025-07-10 | improve activity details with timestamp and username display
-2025-07-11 | chore: disable debug logs for performance test
-2025-07-11 | Improve trail and city search by normalizing and filtering local data
-2025-07-11 | Make user category field required in profile form
-2025-07-14 | fix: correct time validation on Baby Rock track (end point distance now properly checked)
-2025-07-15 | feat(trails): ensure trails are saved only after points and allow deletion without points
-2025-07-15 | fix: ensure OSM tiles load correctly by setting NetworkTileProvider and userAgent
-2025-07-15 | fix: prevent app crash by ignoring trails with empty coordinates
-2025-07-15 | Improve trail loading performance using batched asynchronous processing
-2025-07-15 | Restore manual user field extraction for compatibility with UI
-2025-07-16 | feat: block user from leaving screen before saving trail
-2025-07-16 | fix: resolve merge conflict by consolidating changes into a single file
-2025-07-17 | prevent time recording on ranking when user is not logged in
-2025-07-21 | Adjust fonts and spacing between screen items
-2025-07-22 | change tolerance meter to 20
-2025-07-22 | fix: allow user to access and delete trails without points
-2025-07-23 | Adjust tolerance dynamically based on trail distance
-2025-07-23 | logout user if null during profile edit to restore session
-2025-07-25 | change text BRAPP screen map to logo png
-2025-07-28 | change tolerance 20 to 50 for start-trail and end-trail
-2025-07-28 | display message for incomplete lap
-2025-07-29 | Ignore empty trails in activity map rendering
-2025-07-30 | new tolerance 50M
-2025-07-31 | alteração tolerância para 20M
-```
-
-## COMMITS AgendaLuz
+## PRs Merged
 
 ```
-2025-07-11 | MVP projeto
-2025-07-12 | release: versão 1.2.0+4 final do MVP com agenda personalizada, financeiro e ajustes visuais
-2025-07-14 | Melhorias gerais do MVP post build
-2025-07-15 | 🔧 Correções para dispositivos físicos - Sistema de notificações robusto
+2025-07-16 | brapp-life#32 | Perf/improve trail loading speed
+2025-07-16 | brapp-life#33 | ensure trails are saved only after processing
+2025-07-17 | brapp-life#37 | block user from leaving screen before saving
+2025-07-21 | brapp-life#43 | Adjust fonts and spacing
+2025-07-23 | brapp-life#48 | Adjust/tolerance in meter to 20
+2025-07-29 | brapp-life#52 | display message for incomplete lap
+2025-07-30 | brapp-life#57 | new tolerance 50M
 ```
 
-## PROJETO: CNH Validation (MOST/Windmill)
+## Stack
 
-MVP de sistema de validação de CNH:
-- Tratamento de documentos (incluindo RG)
-- Estrutura de projeto e documentação técnica
-- Versão MVP do workflow
-
-## COMMITS CNH Validation
-
-```
-2025-07-27 | Versão MPV  windmill
-2025-07-27 | corrigindo estrutura do projeto markdown
-2025-07-27 | aprimorando alguns tratamentos de falhas
-2025-07-27 | melhorando tratamento rg
-2025-07-27 | aprimorando doc técnico
-2025-07-30 | change type file
-```
-
-## RESULTADO
-
-- Brapp evoluiu de v2.0.11 para v2.1.5 (6 versões)
-- Performance significativamente melhorada
-- Zero crashes em trilhas problemáticas
-- AgendaLuz MVP completo e funcional
-- CNH Validation MVP funcional
-- Demonstração de autonomia com projetos paralelos
-
----
-
-### Stack Técnico
-- **Flutter** - Future.wait, WillPopScope, loading states
-- **Firestore** - runTransaction, queries otimizadas
-- **Dart** - Async/await, batch processing
-- **OpenStreetMap** - NetworkTileProvider
-- **JSON** - Estruturação de dados nacionais
-- **Python/Windmill** - Validação de documentos
-
-### Aprendizados
-- Batch processing vs carregamento sequencial
-- Transações Firestore para integridade de dados
-- Progressive enhancement em interfaces móveis
-- Desenvolvimento de múltiplos MVPs de forma independente
-- Validação e processamento de documentos
+- Flutter/Dart
+- Firebase/Firestore
+- OpenStreetMap
